@@ -1,13 +1,3 @@
 {
-  "itemGroup.testingmod": "Example Mod Tab",
-  "block.testingmod.example_block": "Example Block",
-  "item.testingmod.example_item": "Example Item",
-
-  "testingmod.configuration.title": "testingmod Configs",
-  "testingmod.configuration.section.testingmod.common.toml": "testingmod Configs",
-  "testingmod.configuration.section.testingmod.common.toml.title": "testingmod Configs",
-  "testingmod.configuration.items": "Item List",
-  "testingmod.configuration.logDirtBlock": "Log Dirt Block",
-  "testingmod.configuration.magicNumberIntroduction": "Magic Number Text",
-  "testingmod.configuration.magicNumber": "Magic Number"
+  "item.testingmod.sunstone": "Sunstone"
 }
