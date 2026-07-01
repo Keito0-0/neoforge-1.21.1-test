@@ -1,5 +1,6 @@
 package com.keitooo.testingmod;
 
+import com.keitooo.testingmod.block.ModBlocks;
 import com.keitooo.testingmod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -50,6 +51,7 @@ public class testingmod {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -65,7 +67,12 @@ public class testingmod {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.SUNSTONE); // added an item to the ingredients tab
+            event.accept(ModItems.SUNSTONE); // adds the item to the ingredients tab
+            event.accept(ModItems.ROSE_GOLD);
+        }
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.ROSE_GOLD_BLOCK);
+            event.accept(ModBlocks.SUNSTONE_ORE);
         }
     }
 
