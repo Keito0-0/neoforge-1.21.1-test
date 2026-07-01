@@ -3,5 +3,9 @@
   "item.testingmod.rose_gold": "Rose Gold Alloy",
 
   "block.testingmod.rose_gold_block": "Block of Rose Gold",
-  "block.testingmod.sunstone_ore": "Sunstone Ore"
+  "block.testingmod.sunstone_ore": "Sunstone Ore",
+  "block.testingmod.deepslate_sunstone_ore": "Deepslate Sunstone Ore",
+
+  "creativetab.testingmod.custom_items": "Custom Items",
+  "creativetab.testingmod.custom_blocks": "Custom Blocks"
 }
