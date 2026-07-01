@@ -1,5 +1,6 @@
 package com.keitooo.testingmod.item;
 
+import com.keitooo.testingmod.item.custom.ChiselItem;
 import com.keitooo.testingmod.testingmod;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
@@ -13,6 +14,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> ROSE_GOLD = ITEMS.register("rose_gold",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CHISEL = ITEMS.register("chisel",
+            () -> new ChiselItem(new Item.Properties().durability(32)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
