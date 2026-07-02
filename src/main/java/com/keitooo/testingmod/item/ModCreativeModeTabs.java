@@ -33,6 +33,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.ROSE_GOLD_BLOCK);
                         output.accept(ModBlocks.SUNSTONE_ORE);
                         output.accept(ModBlocks.DEEPSLATE_SUNSTONE_ORE);
+                        output.accept(ModBlocks.MAGIC_BLOCK);
                     }).build());
 
 

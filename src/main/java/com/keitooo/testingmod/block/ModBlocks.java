@@ -1,5 +1,6 @@
 package com.keitooo.testingmod.block;
 
+import com.keitooo.testingmod.block.custom.MagicBlock;
 import com.keitooo.testingmod.item.ModItems;
 import com.keitooo.testingmod.testingmod;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -28,6 +29,9 @@ public class ModBlocks {
             () -> new DropExperienceBlock(UniformInt.of(3,6),
                     BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
+    public static final DeferredBlock<Block> MAGIC_BLOCK = registerBlock("magic_block", // new block
+            () -> new MagicBlock(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL))); // properties
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

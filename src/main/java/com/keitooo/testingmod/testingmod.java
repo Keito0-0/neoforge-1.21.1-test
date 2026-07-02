@@ -3,6 +3,10 @@ package com.keitooo.testingmod;
 import com.keitooo.testingmod.block.ModBlocks;
 import com.keitooo.testingmod.item.ModCreativeModeTabs;
 import com.keitooo.testingmod.item.ModItems;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.level.block.Blocks;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -62,6 +66,18 @@ public class testingmod {
             event.accept(ModBlocks.SUNSTONE_ORE);
             event.accept(ModBlocks.DEEPSLATE_SUNSTONE_ORE);
         }
+
+// REORDER ITEMS IN THE VANILLA TABS !!!!!!!
+//        if (event.getTabKey() != CreativeModeTabs.COLORED_BLOCKS) {
+//          return;
+//        }
+//        event.remove(
+//          Items.WHITE_WOOL.getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS
+//        );
+//        event.insertAfter(
+//          Items.LIGHT_GRAY_WOOL.getDefaultInstance(), Items.WHITE_WOOL.getDefaultInstance(),
+//          CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS
+//        );
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
