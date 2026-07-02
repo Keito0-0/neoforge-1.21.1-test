@@ -3,6 +3,8 @@
   "item.testingmod.rose_gold": "Rose Gold Alloy",
   "item.testingmod.chisel": "Chisel",
   "item.testingmod.radish": "Radish",
+  "item.testingmod.pocket_sun": "Pocket Sun",
+  "item.testingmod.cardboard": "Cardboard",
 
   "block.testingmod.rose_gold_block": "Block of Rose Gold",
   "block.testingmod.sunstone_ore": "Sunstone Ore",
@@ -10,5 +12,11 @@
   "block.testingmod.magic_block": "Magic Block",
 
   "creativetab.testingmod.custom_items": "Custom Items",
-  "creativetab.testingmod.custom_blocks": "Custom Blocks"
+  "creativetab.testingmod.custom_blocks": "Custom Blocks",
+
+  "tooltip.testingmod.magic_block.tooltip": "This Block is very §9MAGICAL§r",
+  "tooltip.testingmod.radish.tooltip": "Tastes great",
+
+  "tooltip.testingmod.chisel.shift_down": "This Item can transform Blocks into different Blocks",
+  "tooltip.testingmod.chisel.tooltip": "Press §eShift§r for more Information"
 }
