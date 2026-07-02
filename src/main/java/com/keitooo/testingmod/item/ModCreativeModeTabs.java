@@ -23,6 +23,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SUNSTONE); // adds items to the tab
                         output.accept(ModItems.ROSE_GOLD);
                         output.accept(ModItems.CHISEL);
+                        output.accept(ModItems.RADISH);
                     }).build());
 
     public static final Supplier<CreativeModeTab> CUSTOM_BLOCKS_TAB = CREATIVE_MODE_TAB.register("custom_blocks_tab",
