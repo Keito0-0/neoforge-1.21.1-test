@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "sunstone",
+  "key": {
+    "#": {
+      "item": "testingmod:sunstone"
+    }
+  },
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 2,
+    "id": "testingmod:sunstone_trapdoor"
+  }
+}

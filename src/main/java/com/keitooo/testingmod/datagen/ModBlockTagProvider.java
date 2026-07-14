@@ -22,7 +22,14 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.ROSE_GOLD_BLOCK.get())
                 .add(ModBlocks.SUNSTONE_ORE.get())
                 .add(ModBlocks.DEEPSLATE_SUNSTONE_ORE.get())
-                .add(ModBlocks.MAGIC_BLOCK.get());
+                .add(ModBlocks.MAGIC_BLOCK.get())
+                .add(ModBlocks.SUNSTONE_BLOCK.get());
+//                .add(ModBlocks.SUNSTONE_STAIRS.get())
+//                .add(ModBlocks.SUNSTONE_SLAB.get())
+//                .add(ModBlocks.SUNSTONE_BLOCK.get())
+//                .add(ModBlocks.SUNSTONE_BLOCK.get())
+//                .add(ModBlocks.SUNSTONE_BLOCK.get())
+//                .add(ModBlocks.SUNSTONE_BLOCK.get());
 
         tag(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.SUNSTONE_ORE.get());
@@ -32,5 +39,12 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
         tag(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.MAGIC_BLOCK.get());
+
+        tag(BlockTags.FENCES)
+                .add(ModBlocks.SUNSTONE_FENCE.get());
+        tag(BlockTags.FENCE_GATES)
+                .add(ModBlocks.SUNSTONE_FENCE_GATE.get());
+        tag(BlockTags.WALLS)
+                .add(ModBlocks.SUNSTONE_WALL.get());
     }
 }

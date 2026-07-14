@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "sunstone",
+  "ingredients": [
+    {
+      "item": "testingmod:sunstone"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "testingmod:sunstone_button"
+  }
+}

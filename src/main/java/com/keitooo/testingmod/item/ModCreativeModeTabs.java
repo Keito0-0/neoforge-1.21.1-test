@@ -38,6 +38,17 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.SUNSTONE_ORE);
                         output.accept(ModBlocks.DEEPSLATE_SUNSTONE_ORE);
                         output.accept(ModBlocks.MAGIC_BLOCK);
+
+                        output.accept(ModBlocks.SUNSTONE_BLOCK);
+                        output.accept(ModBlocks.SUNSTONE_STAIRS);
+                        output.accept(ModBlocks.SUNSTONE_SLAB);
+                        output.accept(ModBlocks.SUNSTONE_PRESSURE_PLATE);
+                        output.accept(ModBlocks.SUNSTONE_BUTTON);
+                        output.accept(ModBlocks.SUNSTONE_FENCE);
+                        output.accept(ModBlocks.SUNSTONE_FENCE_GATE);
+                        output.accept(ModBlocks.SUNSTONE_WALL);
+                        output.accept(ModBlocks.SUNSTONE_DOOR);
+                        output.accept(ModBlocks.SUNSTONE_TRAPDOOR);
                     }).build());
 
 

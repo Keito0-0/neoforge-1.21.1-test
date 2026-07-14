@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "testingmod:block/sunstone_block",
+    "side": "testingmod:block/sunstone_block",
+    "top": "testingmod:block/sunstone_block"
+  }
+}

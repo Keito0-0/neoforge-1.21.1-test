@@ -41,7 +41,27 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         oreSmelting(recipeOutput, SUNSTONE_SMELTABLES, RecipeCategory.MISC, ModItems.SUNSTONE.get(), 0.25f, 200, "sunstone");
         oreBlasting(recipeOutput, SUNSTONE_SMELTABLES, RecipeCategory.MISC, ModItems.SUNSTONE.get(), 0.25f, 100, "sunstone");
 
+        stairBuilder(ModBlocks.SUNSTONE_STAIRS.get(), Ingredient.of(ModItems.SUNSTONE)).group("sunstone")
+                .unlockedBy("has_sunstone", has(ModItems.SUNSTONE)).save(recipeOutput);
 
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SUNSTONE_SLAB.get(), ModItems.SUNSTONE.get());
+
+        buttonBuilder(ModBlocks.SUNSTONE_BUTTON.get(), Ingredient.of(ModItems.SUNSTONE)).group("sunstone")
+                .unlockedBy("has_sunstone", has(ModItems.SUNSTONE)).save(recipeOutput);
+
+        pressurePlate(recipeOutput, ModBlocks.SUNSTONE_PRESSURE_PLATE.get(), ModItems.SUNSTONE.get());
+
+        fenceBuilder(ModBlocks.SUNSTONE_FENCE.get(), Ingredient.of(ModItems.SUNSTONE)).group("sunstone")
+                .unlockedBy("has_sunstone", has(ModItems.SUNSTONE)).save(recipeOutput);
+        fenceGateBuilder(ModBlocks.SUNSTONE_FENCE_GATE.get(), Ingredient.of(ModItems.SUNSTONE)).group("sunstone")
+
+                .unlockedBy("has_sunstone", has(ModItems.SUNSTONE)).save(recipeOutput);
+        wall(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SUNSTONE_WALL.get(), ModItems.SUNSTONE.get());
+
+        doorBuilder(ModBlocks.SUNSTONE_DOOR.get(), Ingredient.of(ModItems.SUNSTONE)).group("sunstone")
+                .unlockedBy("has_sunstone", has(ModItems.SUNSTONE)).save(recipeOutput);
+        trapdoorBuilder(ModBlocks.SUNSTONE_TRAPDOOR.get(), Ingredient.of(ModItems.SUNSTONE)).group("sunstone")
+                .unlockedBy("has_sunstone", has(ModItems.SUNSTONE)).save(recipeOutput);
     }
 
 

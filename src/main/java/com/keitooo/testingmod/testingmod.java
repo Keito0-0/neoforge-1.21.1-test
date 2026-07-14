@@ -68,16 +68,16 @@ public class testingmod {
         }
 
 // REORDER ITEMS IN THE VANILLA TABS !!!!!!!
-//        if (event.getTabKey() != CreativeModeTabs.COLORED_BLOCKS) {
-//          return;
-//        }
-//        event.remove(
-//          Items.WHITE_WOOL.getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS
-//        );
-//        event.insertAfter(
-//          Items.LIGHT_GRAY_WOOL.getDefaultInstance(), Items.WHITE_WOOL.getDefaultInstance(),
-//          CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS
-//        );
+        if (event.getTabKey() != CreativeModeTabs.COLORED_BLOCKS) {
+          return;
+        }
+        event.remove(
+          Items.WHITE_WOOL.getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS
+        );
+        event.insertAfter(
+          Items.LIGHT_GRAY_WOOL.getDefaultInstance(), Items.WHITE_WOOL.getDefaultInstance(),
+          CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS
+        );
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

@@ -29,6 +29,22 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.ROSE_GOLD_BLOCK.get());
         dropSelf(ModBlocks.MAGIC_BLOCK.get());
 
+        dropSelf(ModBlocks.SUNSTONE_BLOCK.get());
+        dropSelf(ModBlocks.SUNSTONE_STAIRS.get());
+
+        add(ModBlocks.SUNSTONE_SLAB.get(), // slab loot table
+                block -> createSlabItemTable(ModBlocks.SUNSTONE_SLAB.get()));
+
+        dropSelf(ModBlocks.SUNSTONE_PRESSURE_PLATE.get());
+        dropSelf(ModBlocks.SUNSTONE_BUTTON.get());
+        dropSelf(ModBlocks.SUNSTONE_FENCE.get());
+        dropSelf(ModBlocks.SUNSTONE_FENCE_GATE.get());
+        dropSelf(ModBlocks.SUNSTONE_WALL.get());
+        dropSelf(ModBlocks.SUNSTONE_TRAPDOOR.get());
+
+        add(ModBlocks.SUNSTONE_DOOR.get(), // door loot table
+                block -> createDoorTable(ModBlocks.SUNSTONE_DOOR.get()));
+
         add(ModBlocks.SUNSTONE_ORE.get(),
                 block -> createOreDrop(ModBlocks.SUNSTONE_ORE.get(), ModItems.SUNSTONE.get()));
         add(ModBlocks.DEEPSLATE_SUNSTONE_ORE.get(),

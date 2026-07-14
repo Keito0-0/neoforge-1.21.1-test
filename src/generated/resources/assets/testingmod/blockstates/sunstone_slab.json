@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "testingmod:block/sunstone_slab"
+    },
+    "type=double": {
+      "model": "testingmod:block/sunstone_block"
+    },
+    "type=top": {
+      "model": "testingmod:block/sunstone_slab_top"
+    }
+  }
+}

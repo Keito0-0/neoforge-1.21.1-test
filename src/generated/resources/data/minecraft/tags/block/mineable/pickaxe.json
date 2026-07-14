@@ -3,6 +3,7 @@
     "testingmod:rose_gold_block",
     "testingmod:sunstone_ore",
     "testingmod:deepslate_sunstone_ore",
-    "testingmod:magic_block"
+    "testingmod:magic_block",
+    "testingmod:sunstone_block"
   ]
 }
