@@ -1,9 +1,12 @@
 package com.keitooo.testingmod.datagen;
 
 import com.keitooo.testingmod.block.ModBlocks;
+import com.keitooo.testingmod.block.custom.SunstoneLampBlock;
 import com.keitooo.testingmod.testingmod;
 import net.minecraft.data.PackOutput;
+import net.minecraft.resources.ResourceLocation;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
+import net.neoforged.neoforge.client.model.generators.ConfiguredModel;
 import net.neoforged.neoforge.client.model.generators.ModelFile;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.registries.DeferredBlock;
@@ -33,15 +36,31 @@ public class ModBlockStateProvider extends BlockStateProvider {
         fenceGateBlock(ModBlocks.SUNSTONE_FENCE_GATE.get(), blockTexture(ModBlocks.SUNSTONE_BLOCK.get())); // fence gate
         wallBlock(ModBlocks.SUNSTONE_WALL.get(), blockTexture(ModBlocks.SUNSTONE_BLOCK.get())); // wall
 
-        doorBlockWithRenderType(ModBlocks.SUNSTONE_DOOR.get(), modLoc("block/sunstone_door_bottom"), modLoc("block/sunstone_door_top"), "output"); // door
-        trapdoorBlockWithRenderType(ModBlocks.SUNSTONE_TRAPDOOR.get(), modLoc("block/sunstone_trapdoor"), true, "output"); // trapdoor
+        doorBlockWithRenderType(ModBlocks.SUNSTONE_DOOR.get(), modLoc("block/sunstone_door_bottom"), modLoc("block/sunstone_door_top"), "cutout"); // door
+        trapdoorBlockWithRenderType(ModBlocks.SUNSTONE_TRAPDOOR.get(), modLoc("block/sunstone_trapdoor"), true, "cutout"); // trapdoor
 
         blockItem(ModBlocks.SUNSTONE_STAIRS);
         blockItem(ModBlocks.SUNSTONE_SLAB);
         blockItem(ModBlocks.SUNSTONE_PRESSURE_PLATE);
         blockItem(ModBlocks.SUNSTONE_FENCE_GATE);
         blockItem(ModBlocks.SUNSTONE_TRAPDOOR, "_bottom");
+
+        customLamp();
     }
+    private void customLamp() {
+        getVariantBuilder(ModBlocks.SUNSTONE_LAMP.get()).forAllStates(state -> {
+            if(state.getValue(SunstoneLampBlock.CLICKED)) {
+                return new ConfiguredModel[]{new ConfiguredModel(models().cubeAll("sunstone_lamp_on",
+                        ResourceLocation.fromNamespaceAndPath(testingmod.MODID,"block/" + "sunstone_lamp_on")))};
+            } else {
+                return new ConfiguredModel[]{new ConfiguredModel(models().cubeAll("sunstone_lamp_off",
+                        ResourceLocation.fromNamespaceAndPath(testingmod.MODID,"block/" + "sunstone_lamp_off")))};
+            }
+        });
+        simpleBlockItem(ModBlocks.SUNSTONE_LAMP.get(), models().cubeAll("sunstone_lamp_off",
+                ResourceLocation.fromNamespaceAndPath(testingmod.MODID, "block/" + "sunstone_lamp_off")));
+    }
+
 
     private void blockWithItem(DeferredBlock<?> deferredBlock) {
         simpleBlockWithItem(deferredBlock.get(), cubeAll(deferredBlock.get()));
@@ -50,6 +69,6 @@ public class ModBlockStateProvider extends BlockStateProvider {
         simpleBlockItem(deferredBlock.get(), new ModelFile.UncheckedModelFile("testingmod:block/" + deferredBlock.getId().getPath()));
     }
     private void blockItem(DeferredBlock<?> deferredBlock, String appendix) {
-        simpleBlockItem(deferredBlock.get(), new ModelFile.UncheckedModelFile("testingmod:block/" + deferredBlock.getId().getPath()));
+        simpleBlockItem(deferredBlock.get(), new ModelFile.UncheckedModelFile("testingmod:block/" + deferredBlock.getId().getPath() + appendix));
     }
 }

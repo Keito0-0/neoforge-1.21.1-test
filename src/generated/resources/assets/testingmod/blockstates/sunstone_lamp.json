@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "clicked=false": {
+      "model": "testingmod:block/sunstone_lamp_off"
+    },
+    "clicked=true": {
+      "model": "testingmod:block/sunstone_lamp_on"
+    }
+  }
+}

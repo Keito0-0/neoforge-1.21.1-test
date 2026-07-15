@@ -1,6 +1,7 @@
 package com.keitooo.testingmod.block;
 
 import com.keitooo.testingmod.block.custom.MagicBlock;
+import com.keitooo.testingmod.block.custom.SunstoneLampBlock;
 import com.keitooo.testingmod.item.ModItems;
 import com.keitooo.testingmod.testingmod;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -35,29 +36,33 @@ public class ModBlocks {
 
 
     public static final DeferredBlock<Block> SUNSTONE_BLOCK = registerBlock("sunstone_block",
-            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+            () -> new Block(BlockBehaviour.Properties.of().strength(5f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
 
     public static final DeferredBlock<StairBlock> SUNSTONE_STAIRS = registerBlock("sunstone_stairs",
-            () -> new StairBlock(ModBlocks.SUNSTONE_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+            () -> new StairBlock(ModBlocks.SUNSTONE_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties.of().strength(5f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
     public static final DeferredBlock<SlabBlock> SUNSTONE_SLAB = registerBlock("sunstone_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(5f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
 
     public static final DeferredBlock<PressurePlateBlock> SUNSTONE_PRESSURE_PLATE = registerBlock("sunstone_pressure_plate",
-            () -> new PressurePlateBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(2f).sound(SoundType.METAL)));
+            () -> new PressurePlateBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(0.5f).sound(SoundType.METAL).noCollission()));
     public static final DeferredBlock<ButtonBlock> SUNSTONE_BUTTON = registerBlock("sunstone_button",
-            () -> new ButtonBlock(BlockSetType.IRON, 20, BlockBehaviour.Properties.of().strength(2f).sound(SoundType.METAL).noCollission()));
+            () -> new ButtonBlock(BlockSetType.IRON, 10, BlockBehaviour.Properties.of().strength(0.5f).sound(SoundType.METAL).noCollission()));
 
     public static final DeferredBlock<FenceBlock> SUNSTONE_FENCE = registerBlock("sunstone_fence",
-            () -> new FenceBlock(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+            () -> new FenceBlock(BlockBehaviour.Properties.of().strength(5f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
     public static final DeferredBlock<FenceGateBlock> SUNSTONE_FENCE_GATE = registerBlock("sunstone_fence_gate",
-            () -> new FenceGateBlock(WoodType.OAK, BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+            () -> new FenceGateBlock(WoodType.OAK, BlockBehaviour.Properties.of().strength(5f).requiresCorrectToolForDrops()));
     public static final DeferredBlock<WallBlock> SUNSTONE_WALL = registerBlock("sunstone_wall",
-            () -> new WallBlock(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+            () -> new WallBlock(BlockBehaviour.Properties.of().strength(5f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
 
     public static final DeferredBlock<DoorBlock> SUNSTONE_DOOR = registerBlock("sunstone_door",
-            () -> new DoorBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL).noOcclusion()));
+            () -> new DoorBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(5f).requiresCorrectToolForDrops().noOcclusion()));
     public static final DeferredBlock<TrapDoorBlock> SUNSTONE_TRAPDOOR = registerBlock("sunstone_trapdoor",
-            () -> new TrapDoorBlock(BlockSetType.IRON,BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL).noOcclusion()));
+            () -> new TrapDoorBlock(BlockSetType.IRON,BlockBehaviour.Properties.of().strength(5f).requiresCorrectToolForDrops().noOcclusion()));
+
+    public static final DeferredBlock<Block> SUNSTONE_LAMP = registerBlock("sunstone_lamp", // custom lamp block
+            () -> new SunstoneLampBlock(BlockBehaviour.Properties.of().strength(2f)
+                    .requiresCorrectToolForDrops().lightLevel(state -> state.getValue(SunstoneLampBlock.CLICKED) ? 15 : 0)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "testingmod:sunstone_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "testingmod:sunstone"
+  }
+}

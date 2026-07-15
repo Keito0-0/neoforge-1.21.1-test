@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/wall_inventory",
   "textures": {
-    "texture": "testingmod:block/sunstone_block"
+    "wall": "testingmod:block/sunstone_block"
   }
 }

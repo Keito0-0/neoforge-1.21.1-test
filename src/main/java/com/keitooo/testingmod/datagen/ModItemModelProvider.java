@@ -45,7 +45,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     public void wallItem(DeferredBlock<?> block, DeferredBlock<Block> baseBlock) {
         this.withExistingParent(block.getId().getPath(), mcLoc("block/wall_inventory"))
-                .texture("texture", ResourceLocation.fromNamespaceAndPath(testingmod.MODID,
+                .texture("wall", ResourceLocation.fromNamespaceAndPath(testingmod.MODID,
                 "block/" + baseBlock.getId().getPath()));
     }
 }

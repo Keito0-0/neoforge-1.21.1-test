@@ -6,6 +6,7 @@ import com.keitooo.testingmod.testingmod;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.ItemLike;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
@@ -41,10 +42,13 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         oreSmelting(recipeOutput, SUNSTONE_SMELTABLES, RecipeCategory.MISC, ModItems.SUNSTONE.get(), 0.25f, 200, "sunstone");
         oreBlasting(recipeOutput, SUNSTONE_SMELTABLES, RecipeCategory.MISC, ModItems.SUNSTONE.get(), 0.25f, 100, "sunstone");
 
-        stairBuilder(ModBlocks.SUNSTONE_STAIRS.get(), Ingredient.of(ModItems.SUNSTONE)).group("sunstone")
-                .unlockedBy("has_sunstone", has(ModItems.SUNSTONE)).save(recipeOutput);
+        nineBlockStorageRecipes(
+            recipeOutput, RecipeCategory.MISC, ModItems.SUNSTONE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SUNSTONE_BLOCK);
 
-        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SUNSTONE_SLAB.get(), ModItems.SUNSTONE.get());
+        stairBuilder(ModBlocks.SUNSTONE_STAIRS.get(), Ingredient.of(ModBlocks.SUNSTONE_BLOCK)).group("sunstone")
+                .unlockedBy("has_sunstone", has(ModBlocks.SUNSTONE_BLOCK)).save(recipeOutput);
+
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SUNSTONE_SLAB.get(), ModBlocks.SUNSTONE_BLOCK.get());
 
         buttonBuilder(ModBlocks.SUNSTONE_BUTTON.get(), Ingredient.of(ModItems.SUNSTONE)).group("sunstone")
                 .unlockedBy("has_sunstone", has(ModItems.SUNSTONE)).save(recipeOutput);
@@ -56,7 +60,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         fenceGateBuilder(ModBlocks.SUNSTONE_FENCE_GATE.get(), Ingredient.of(ModItems.SUNSTONE)).group("sunstone")
 
                 .unlockedBy("has_sunstone", has(ModItems.SUNSTONE)).save(recipeOutput);
-        wall(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SUNSTONE_WALL.get(), ModItems.SUNSTONE.get());
+        wall(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SUNSTONE_WALL.get(), ModBlocks.SUNSTONE_BLOCK.get());
 
         doorBuilder(ModBlocks.SUNSTONE_DOOR.get(), Ingredient.of(ModItems.SUNSTONE)).group("sunstone")
                 .unlockedBy("has_sunstone", has(ModItems.SUNSTONE)).save(recipeOutput);

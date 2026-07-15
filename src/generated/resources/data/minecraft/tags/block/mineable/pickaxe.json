@@ -4,6 +4,12 @@
     "testingmod:sunstone_ore",
     "testingmod:deepslate_sunstone_ore",
     "testingmod:magic_block",
-    "testingmod:sunstone_block"
+    "testingmod:sunstone_block",
+    "testingmod:sunstone_stairs",
+    "testingmod:sunstone_slab",
+    "testingmod:sunstone_fence",
+    "testingmod:sunstone_trapdoor",
+    "testingmod:sunstone_door",
+    "testingmod:sunstone_lamp"
   ]
 }

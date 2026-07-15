@@ -49,6 +49,8 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
                 block -> createOreDrop(ModBlocks.SUNSTONE_ORE.get(), ModItems.SUNSTONE.get()));
         add(ModBlocks.DEEPSLATE_SUNSTONE_ORE.get(),
                 block -> createMultipleOreDrops(ModBlocks.DEEPSLATE_SUNSTONE_ORE.get(), ModItems.SUNSTONE.get(), 2, 5));
+
+        dropSelf(ModBlocks.SUNSTONE_LAMP.get());
     }
 
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {

@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "testingmod:sunstone"
+            "items": "testingmod:sunstone_block"
           }
         ]
       },

@@ -3,14 +3,16 @@
   "category": "building",
   "key": {
     "#": {
-      "item": "testingmod:sunstone_block"
+      "item": "testingmod:sunstone"
     }
   },
   "pattern": [
+    "###",
+    "###",
     "###"
   ],
   "result": {
-    "count": 6,
-    "id": "testingmod:sunstone_slab"
+    "count": 1,
+    "id": "testingmod:sunstone_block"
   }
 }

@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "testingmod:sunstone_wall"
+        "recipe": "minecraft:sunstone"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "testingmod:sunstone_wall"
+      "minecraft:sunstone"
     ]
   }
 }

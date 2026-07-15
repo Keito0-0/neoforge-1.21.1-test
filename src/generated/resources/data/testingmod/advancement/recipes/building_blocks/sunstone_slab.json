@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_sunstone": {
+    "has_sunstone_block": {
       "conditions": {
         "items": [
           {
-            "items": "testingmod:sunstone"
+            "items": "testingmod:sunstone_block"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_sunstone"
+      "has_sunstone_block"
     ]
   ],
   "rewards": {

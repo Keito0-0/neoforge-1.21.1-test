@@ -23,13 +23,14 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.SUNSTONE_ORE.get())
                 .add(ModBlocks.DEEPSLATE_SUNSTONE_ORE.get())
                 .add(ModBlocks.MAGIC_BLOCK.get())
-                .add(ModBlocks.SUNSTONE_BLOCK.get());
-//                .add(ModBlocks.SUNSTONE_STAIRS.get())
-//                .add(ModBlocks.SUNSTONE_SLAB.get())
-//                .add(ModBlocks.SUNSTONE_BLOCK.get())
-//                .add(ModBlocks.SUNSTONE_BLOCK.get())
-//                .add(ModBlocks.SUNSTONE_BLOCK.get())
-//                .add(ModBlocks.SUNSTONE_BLOCK.get());
+                .add(ModBlocks.SUNSTONE_BLOCK.get())
+                .add(ModBlocks.SUNSTONE_STAIRS.get())
+                .add(ModBlocks.SUNSTONE_SLAB.get())
+                .add(ModBlocks.SUNSTONE_FENCE.get())
+                .add(ModBlocks.SUNSTONE_TRAPDOOR.get())
+                .add(ModBlocks.SUNSTONE_DOOR.get())
+                .add(ModBlocks.SUNSTONE_LAMP.get())
+                ;
 
         tag(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.SUNSTONE_ORE.get());

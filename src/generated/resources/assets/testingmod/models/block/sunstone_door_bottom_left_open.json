@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/door_bottom_left_open",
-  "render_type": "minecraft:output",
+  "render_type": "minecraft:cutout",
   "textures": {
     "bottom": "testingmod:block/sunstone_door_bottom",
     "top": "testingmod:block/sunstone_door_top"
