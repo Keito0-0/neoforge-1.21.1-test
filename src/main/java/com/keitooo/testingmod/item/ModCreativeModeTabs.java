@@ -50,6 +50,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.SUNSTONE_DOOR);
                         output.accept(ModBlocks.SUNSTONE_TRAPDOOR);
                         output.accept(ModBlocks.SUNSTONE_LAMP);
+                        output.accept(ModBlocks.CUSTOM_FLOWER);
                     }).build());
 
 

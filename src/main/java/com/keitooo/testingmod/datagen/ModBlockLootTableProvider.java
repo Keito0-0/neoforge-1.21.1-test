@@ -42,6 +42,8 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.SUNSTONE_WALL.get());
         dropSelf(ModBlocks.SUNSTONE_TRAPDOOR.get());
 
+        dropSelf(ModBlocks.CUSTOM_FLOWER.get());
+
         add(ModBlocks.SUNSTONE_DOOR.get(), // door loot table
                 block -> createDoorTable(ModBlocks.SUNSTONE_DOOR.get()));
 

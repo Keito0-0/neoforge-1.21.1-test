@@ -5,12 +5,15 @@ import com.keitooo.testingmod.block.custom.SunstoneLampBlock;
 import com.keitooo.testingmod.item.ModItems;
 import com.keitooo.testingmod.testingmod;
 import net.minecraft.util.valueproviders.UniformInt;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraft.world.level.block.state.properties.WoodType;
+import net.minecraft.world.level.material.MapColor;
+import net.minecraft.world.level.material.PushReaction;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -63,6 +66,11 @@ public class ModBlocks {
     public static final DeferredBlock<Block> SUNSTONE_LAMP = registerBlock("sunstone_lamp", // custom lamp block
             () -> new SunstoneLampBlock(BlockBehaviour.Properties.of().strength(2f)
                     .requiresCorrectToolForDrops().lightLevel(state -> state.getValue(SunstoneLampBlock.CLICKED) ? 15 : 0)));
+
+    public static final DeferredBlock<Block> CUSTOM_FLOWER = registerBlock("custom_flower",
+            () -> new FlowerBlock(MobEffects.SATURATION, 0.35F, BlockBehaviour.Properties.of()
+                .mapColor(MapColor.PLANT).noCollission().noOcclusion().instabreak().sound(SoundType.GRASS).offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY)));
+
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

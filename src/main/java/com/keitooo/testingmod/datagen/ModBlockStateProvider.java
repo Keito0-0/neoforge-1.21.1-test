@@ -36,6 +36,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         fenceGateBlock(ModBlocks.SUNSTONE_FENCE_GATE.get(), blockTexture(ModBlocks.SUNSTONE_BLOCK.get())); // fence gate
         wallBlock(ModBlocks.SUNSTONE_WALL.get(), blockTexture(ModBlocks.SUNSTONE_BLOCK.get())); // wall
 
+
         doorBlockWithRenderType(ModBlocks.SUNSTONE_DOOR.get(), modLoc("block/sunstone_door_bottom"), modLoc("block/sunstone_door_top"), "cutout"); // door
         trapdoorBlockWithRenderType(ModBlocks.SUNSTONE_TRAPDOOR.get(), modLoc("block/sunstone_trapdoor"), true, "cutout"); // trapdoor
 
@@ -44,6 +45,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.SUNSTONE_PRESSURE_PLATE);
         blockItem(ModBlocks.SUNSTONE_FENCE_GATE);
         blockItem(ModBlocks.SUNSTONE_TRAPDOOR, "_bottom");
+
 
         customLamp();
     }
