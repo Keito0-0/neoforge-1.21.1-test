@@ -70,8 +70,55 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         stairBuilder(ModBlocks.TERRACOTTA_STAIRS.get(), Ingredient.of(Blocks.TERRACOTTA)).group("terracotta")
                 .unlockedBy("has_terracotta", has(Blocks.TERRACOTTA)).save(recipeOutput);
-
         slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.TERRACOTTA_SLAB.get(), Blocks.TERRACOTTA);
+        stairBuilder(ModBlocks.WHITE_TERRACOTTA_STAIRS.get(), Ingredient.of(Blocks.WHITE_TERRACOTTA)).group("terracotta")
+                .unlockedBy("has_terracotta", has(Blocks.WHITE_TERRACOTTA)).save(recipeOutput);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.WHITE_TERRACOTTA_SLAB.get(), Blocks.WHITE_TERRACOTTA);
+        stairBuilder(ModBlocks.LIGHT_GRAY_TERRACOTTA_STAIRS.get(), Ingredient.of(Blocks.LIGHT_GRAY_TERRACOTTA)).group("terracotta")
+                .unlockedBy("has_terracotta", has(Blocks.LIGHT_GRAY_TERRACOTTA)).save(recipeOutput);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_GRAY_TERRACOTTA_SLAB.get(), Blocks.LIGHT_GRAY_TERRACOTTA);
+        stairBuilder(ModBlocks.GRAY_TERRACOTTA_STAIRS.get(), Ingredient.of(Blocks.GRAY_TERRACOTTA)).group("terracotta")
+                .unlockedBy("has_terracotta", has(Blocks.GRAY_TERRACOTTA)).save(recipeOutput);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.GRAY_TERRACOTTA_SLAB.get(), Blocks.GRAY_TERRACOTTA);
+        stairBuilder(ModBlocks.BLACK_TERRACOTTA_STAIRS.get(), Ingredient.of(Blocks.BLACK_TERRACOTTA)).group("terracotta")
+                .unlockedBy("has_terracotta", has(Blocks.BLACK_TERRACOTTA)).save(recipeOutput);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLACK_TERRACOTTA_SLAB.get(), Blocks.BLACK_TERRACOTTA);
+        stairBuilder(ModBlocks.BROWN_TERRACOTTA_STAIRS.get(), Ingredient.of(Blocks.BROWN_TERRACOTTA)).group("terracotta")
+                .unlockedBy("has_terracotta", has(Blocks.BROWN_TERRACOTTA)).save(recipeOutput);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BROWN_TERRACOTTA_SLAB.get(), Blocks.BROWN_TERRACOTTA);
+        stairBuilder(ModBlocks.RED_TERRACOTTA_STAIRS.get(), Ingredient.of(Blocks.RED_TERRACOTTA)).group("terracotta")
+                .unlockedBy("has_terracotta", has(Blocks.RED_TERRACOTTA)).save(recipeOutput);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.RED_TERRACOTTA_SLAB.get(), Blocks.RED_TERRACOTTA);
+        stairBuilder(ModBlocks.ORANGE_TERRACOTTA_STAIRS.get(), Ingredient.of(Blocks.ORANGE_TERRACOTTA)).group("terracotta")
+                .unlockedBy("has_terracotta", has(Blocks.ORANGE_TERRACOTTA)).save(recipeOutput);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ORANGE_TERRACOTTA_SLAB.get(), Blocks.ORANGE_TERRACOTTA);
+        stairBuilder(ModBlocks.YELLOW_TERRACOTTA_STAIRS.get(), Ingredient.of(Blocks.YELLOW_TERRACOTTA)).group("terracotta")
+                .unlockedBy("has_terracotta", has(Blocks.YELLOW_TERRACOTTA)).save(recipeOutput);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.YELLOW_TERRACOTTA_SLAB.get(), Blocks.YELLOW_TERRACOTTA);
+        stairBuilder(ModBlocks.LIME_TERRACOTTA_STAIRS.get(), Ingredient.of(Blocks.LIME_TERRACOTTA)).group("terracotta")
+                .unlockedBy("has_terracotta", has(Blocks.LIME_TERRACOTTA)).save(recipeOutput);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIME_TERRACOTTA_SLAB.get(), Blocks.LIME_TERRACOTTA);
+        stairBuilder(ModBlocks.GREEN_TERRACOTTA_STAIRS.get(), Ingredient.of(Blocks.GREEN_TERRACOTTA)).group("terracotta")
+                .unlockedBy("has_terracotta", has(Blocks.GREEN_TERRACOTTA)).save(recipeOutput);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.GREEN_TERRACOTTA_SLAB.get(), Blocks.GREEN_TERRACOTTA);
+        stairBuilder(ModBlocks.CYAN_TERRACOTTA_STAIRS.get(), Ingredient.of(Blocks.CYAN_TERRACOTTA)).group("terracotta")
+                .unlockedBy("has_terracotta", has(Blocks.CYAN_TERRACOTTA)).save(recipeOutput);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CYAN_TERRACOTTA_SLAB.get(), Blocks.CYAN_TERRACOTTA);
+        stairBuilder(ModBlocks.LIGHT_BLUE_TERRACOTTA_STAIRS.get(), Ingredient.of(Blocks.LIGHT_BLUE_TERRACOTTA)).group("terracotta")
+                .unlockedBy("has_terracotta", has(Blocks.LIGHT_BLUE_TERRACOTTA)).save(recipeOutput);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIGHT_BLUE_TERRACOTTA_SLAB.get(), Blocks.LIGHT_BLUE_TERRACOTTA);
+        stairBuilder(ModBlocks.BLUE_TERRACOTTA_STAIRS.get(), Ingredient.of(Blocks.BLUE_TERRACOTTA)).group("terracotta")
+                .unlockedBy("has_terracotta", has(Blocks.BLUE_TERRACOTTA)).save(recipeOutput);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLUE_TERRACOTTA_SLAB.get(), Blocks.BLUE_TERRACOTTA);
+        stairBuilder(ModBlocks.PURPLE_TERRACOTTA_STAIRS.get(), Ingredient.of(Blocks.PURPLE_TERRACOTTA)).group("terracotta")
+                .unlockedBy("has_terracotta", has(Blocks.PURPLE_TERRACOTTA)).save(recipeOutput);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.PURPLE_TERRACOTTA_SLAB.get(), Blocks.PURPLE_TERRACOTTA);
+        stairBuilder(ModBlocks.MAGENTA_TERRACOTTA_STAIRS.get(), Ingredient.of(Blocks.MAGENTA_TERRACOTTA)).group("terracotta")
+                .unlockedBy("has_terracotta", has(Blocks.MAGENTA_TERRACOTTA)).save(recipeOutput);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAGENTA_TERRACOTTA_SLAB.get(), Blocks.MAGENTA_TERRACOTTA);
+        stairBuilder(ModBlocks.PINK_TERRACOTTA_STAIRS.get(), Ingredient.of(Blocks.PINK_TERRACOTTA)).group("terracotta")
+                .unlockedBy("has_terracotta", has(Blocks.PINK_TERRACOTTA)).save(recipeOutput);
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINK_TERRACOTTA_SLAB.get(), Blocks.PINK_TERRACOTTA);
     }
 
 

@@ -54,6 +54,38 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.TERRACOTTA_STAIRS);
                         output.accept(ModBlocks.TERRACOTTA_SLAB);
+                        output.accept(ModBlocks.WHITE_TERRACOTTA_STAIRS);
+                        output.accept(ModBlocks.WHITE_TERRACOTTA_SLAB);
+                        output.accept(ModBlocks.LIGHT_GRAY_TERRACOTTA_STAIRS);
+                        output.accept(ModBlocks.LIGHT_GRAY_TERRACOTTA_SLAB);
+                        output.accept(ModBlocks.GRAY_TERRACOTTA_STAIRS);
+                        output.accept(ModBlocks.GRAY_TERRACOTTA_SLAB);
+                        output.accept(ModBlocks.BLACK_TERRACOTTA_STAIRS);
+                        output.accept(ModBlocks.BLACK_TERRACOTTA_SLAB);
+                        output.accept(ModBlocks.BROWN_TERRACOTTA_STAIRS);
+                        output.accept(ModBlocks.BROWN_TERRACOTTA_SLAB);
+                        output.accept(ModBlocks.RED_TERRACOTTA_STAIRS);
+                        output.accept(ModBlocks.RED_TERRACOTTA_SLAB);
+                        output.accept(ModBlocks.ORANGE_TERRACOTTA_STAIRS);
+                        output.accept(ModBlocks.ORANGE_TERRACOTTA_SLAB);
+                        output.accept(ModBlocks.YELLOW_TERRACOTTA_STAIRS);
+                        output.accept(ModBlocks.YELLOW_TERRACOTTA_SLAB);
+                        output.accept(ModBlocks.LIME_TERRACOTTA_STAIRS);
+                        output.accept(ModBlocks.LIME_TERRACOTTA_SLAB);
+                        output.accept(ModBlocks.GREEN_TERRACOTTA_STAIRS);
+                        output.accept(ModBlocks.GREEN_TERRACOTTA_SLAB);
+                        output.accept(ModBlocks.CYAN_TERRACOTTA_STAIRS);
+                        output.accept(ModBlocks.CYAN_TERRACOTTA_SLAB);
+                        output.accept(ModBlocks.LIGHT_BLUE_TERRACOTTA_STAIRS);
+                        output.accept(ModBlocks.LIGHT_BLUE_TERRACOTTA_SLAB);
+                        output.accept(ModBlocks.BLUE_TERRACOTTA_STAIRS);
+                        output.accept(ModBlocks.BLUE_TERRACOTTA_SLAB);
+                        output.accept(ModBlocks.PURPLE_TERRACOTTA_STAIRS);
+                        output.accept(ModBlocks.PURPLE_TERRACOTTA_SLAB);
+                        output.accept(ModBlocks.MAGENTA_TERRACOTTA_STAIRS);
+                        output.accept(ModBlocks.MAGENTA_TERRACOTTA_SLAB);
+                        output.accept(ModBlocks.PINK_TERRACOTTA_STAIRS);
+                        output.accept(ModBlocks.PINK_TERRACOTTA_SLAB);
                     }).build());
 
 

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "terracotta",
+  "key": {
+    "#": {
+      "item": "minecraft:purple_terracotta"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "testingmod:purple_terracotta_stairs"
+  }
+}

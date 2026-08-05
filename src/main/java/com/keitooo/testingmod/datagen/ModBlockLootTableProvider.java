@@ -45,6 +45,54 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.TERRACOTTA_STAIRS.get());
         add(ModBlocks.TERRACOTTA_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.TERRACOTTA_SLAB.get()));
+        dropSelf(ModBlocks.WHITE_TERRACOTTA_STAIRS.get());
+        add(ModBlocks.WHITE_TERRACOTTA_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.WHITE_TERRACOTTA_SLAB.get()));
+        dropSelf(ModBlocks.LIGHT_GRAY_TERRACOTTA_STAIRS.get());
+        add(ModBlocks.LIGHT_GRAY_TERRACOTTA_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.LIGHT_GRAY_TERRACOTTA_SLAB.get()));
+        dropSelf(ModBlocks.GRAY_TERRACOTTA_STAIRS.get());
+        add(ModBlocks.GRAY_TERRACOTTA_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.GRAY_TERRACOTTA_SLAB.get()));
+        dropSelf(ModBlocks.BLACK_TERRACOTTA_STAIRS.get());
+        add(ModBlocks.BLACK_TERRACOTTA_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.BLACK_TERRACOTTA_SLAB.get()));
+        dropSelf(ModBlocks.BROWN_TERRACOTTA_STAIRS.get());
+        add(ModBlocks.BROWN_TERRACOTTA_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.BROWN_TERRACOTTA_SLAB.get()));
+        dropSelf(ModBlocks.RED_TERRACOTTA_STAIRS.get());
+        add(ModBlocks.RED_TERRACOTTA_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.RED_TERRACOTTA_SLAB.get()));
+        dropSelf(ModBlocks.ORANGE_TERRACOTTA_STAIRS.get());
+        add(ModBlocks.ORANGE_TERRACOTTA_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.ORANGE_TERRACOTTA_SLAB.get()));
+        dropSelf(ModBlocks.YELLOW_TERRACOTTA_STAIRS.get());
+        add(ModBlocks.YELLOW_TERRACOTTA_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.YELLOW_TERRACOTTA_SLAB.get()));
+        dropSelf(ModBlocks.LIME_TERRACOTTA_STAIRS.get());
+        add(ModBlocks.LIME_TERRACOTTA_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.LIME_TERRACOTTA_SLAB.get()));
+        dropSelf(ModBlocks.GREEN_TERRACOTTA_STAIRS.get());
+        add(ModBlocks.GREEN_TERRACOTTA_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.GREEN_TERRACOTTA_SLAB.get()));
+        dropSelf(ModBlocks.CYAN_TERRACOTTA_STAIRS.get());
+        add(ModBlocks.CYAN_TERRACOTTA_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.CYAN_TERRACOTTA_SLAB.get()));
+        dropSelf(ModBlocks.LIGHT_BLUE_TERRACOTTA_STAIRS.get());
+        add(ModBlocks.LIGHT_BLUE_TERRACOTTA_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.LIGHT_BLUE_TERRACOTTA_SLAB.get()));
+        dropSelf(ModBlocks.BLUE_TERRACOTTA_STAIRS.get());
+        add(ModBlocks.BLUE_TERRACOTTA_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.BLUE_TERRACOTTA_SLAB.get()));
+        dropSelf(ModBlocks.PURPLE_TERRACOTTA_STAIRS.get());
+        add(ModBlocks.PURPLE_TERRACOTTA_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.PURPLE_TERRACOTTA_SLAB.get()));
+        dropSelf(ModBlocks.MAGENTA_TERRACOTTA_STAIRS.get());
+        add(ModBlocks.MAGENTA_TERRACOTTA_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.MAGENTA_TERRACOTTA_SLAB.get()));
+        dropSelf(ModBlocks.PINK_TERRACOTTA_STAIRS.get());
+        add(ModBlocks.PINK_TERRACOTTA_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.PINK_TERRACOTTA_SLAB.get()));
 
         dropSelf(ModBlocks.CUSTOM_FLOWER.get());
 
