@@ -5,6 +5,7 @@ import com.keitooo.testingmod.block.custom.SunstoneLampBlock;
 import com.keitooo.testingmod.testingmod;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.level.block.Blocks;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
 import net.neoforged.neoforge.client.model.generators.ConfiguredModel;
 import net.neoforged.neoforge.client.model.generators.ModelFile;
@@ -29,6 +30,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
         stairsBlock(ModBlocks.SUNSTONE_STAIRS.get(), blockTexture(ModBlocks.SUNSTONE_BLOCK.get())); // stairs
         slabBlock(ModBlocks.SUNSTONE_SLAB.get(), blockTexture(ModBlocks.SUNSTONE_BLOCK.get()), blockTexture(ModBlocks.SUNSTONE_BLOCK.get())); // slab
 
+        stairsBlock(ModBlocks.TERRACOTTA_STAIRS.get(), blockTexture(Blocks.TERRACOTTA)); // stairs
+        slabBlock(ModBlocks.TERRACOTTA_SLAB.get(), blockTexture(Blocks.TERRACOTTA), blockTexture(Blocks.TERRACOTTA)); // slab
+
         buttonBlock(ModBlocks.SUNSTONE_BUTTON.get(), blockTexture(ModBlocks.SUNSTONE_BLOCK.get())); // button
         pressurePlateBlock(ModBlocks.SUNSTONE_PRESSURE_PLATE.get(), blockTexture(ModBlocks.SUNSTONE_BLOCK.get())); // pressure plate
 
@@ -42,6 +46,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         blockItem(ModBlocks.SUNSTONE_STAIRS);
         blockItem(ModBlocks.SUNSTONE_SLAB);
+
+        blockItem(ModBlocks.TERRACOTTA_SLAB);
+        blockItem(ModBlocks.TERRACOTTA_STAIRS);
+
         blockItem(ModBlocks.SUNSTONE_PRESSURE_PLATE);
         blockItem(ModBlocks.SUNSTONE_FENCE_GATE);
         blockItem(ModBlocks.SUNSTONE_TRAPDOOR, "_bottom");

@@ -10,6 +10,8 @@
     "testingmod:sunstone_fence",
     "testingmod:sunstone_trapdoor",
     "testingmod:sunstone_door",
-    "testingmod:sunstone_lamp"
+    "testingmod:sunstone_lamp",
+    "testingmod:terracotta_slab",
+    "testingmod:terracotta_stairs"
   ]
 }

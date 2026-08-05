@@ -71,6 +71,11 @@ public class ModBlocks {
             () -> new FlowerBlock(MobEffects.SATURATION, 0.35F, BlockBehaviour.Properties.of()
                 .mapColor(MapColor.PLANT).noCollission().noOcclusion().instabreak().sound(SoundType.GRASS).offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY)));
 
+    public static final DeferredBlock<StairBlock> TERRACOTTA_STAIRS = registerBlock("terracotta_stairs",
+            () -> new StairBlock(Blocks.TERRACOTTA.defaultBlockState(), BlockBehaviour.Properties.of().strength(1.25f,4.2f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final DeferredBlock<SlabBlock> TERRACOTTA_SLAB = registerBlock("terracotta_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(1.25f,4.2f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

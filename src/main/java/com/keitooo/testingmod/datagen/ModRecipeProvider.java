@@ -9,6 +9,7 @@ import net.minecraft.data.recipes.*;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.ItemLike;
+import net.minecraft.world.level.block.Blocks;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
 
 import java.util.List;
@@ -66,6 +67,11 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_sunstone", has(ModItems.SUNSTONE)).save(recipeOutput);
         trapdoorBuilder(ModBlocks.SUNSTONE_TRAPDOOR.get(), Ingredient.of(ModItems.SUNSTONE)).group("sunstone")
                 .unlockedBy("has_sunstone", has(ModItems.SUNSTONE)).save(recipeOutput);
+
+        stairBuilder(ModBlocks.TERRACOTTA_STAIRS.get(), Ingredient.of(Blocks.TERRACOTTA)).group("terracotta")
+                .unlockedBy("has_terracotta", has(Blocks.TERRACOTTA)).save(recipeOutput);
+
+        slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.TERRACOTTA_SLAB.get(), Blocks.TERRACOTTA);
     }
 
 

@@ -30,6 +30,8 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.SUNSTONE_TRAPDOOR.get())
                 .add(ModBlocks.SUNSTONE_DOOR.get())
                 .add(ModBlocks.SUNSTONE_LAMP.get())
+                .add(ModBlocks.TERRACOTTA_SLAB.get())
+                .add(ModBlocks.TERRACOTTA_STAIRS.get())
                 ;
 
         tag(BlockTags.NEEDS_STONE_TOOL)
@@ -47,5 +49,10 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.SUNSTONE_FENCE_GATE.get());
         tag(BlockTags.WALLS)
                 .add(ModBlocks.SUNSTONE_WALL.get());
+
+        tag(BlockTags.STAIRS)
+                .add(ModBlocks.TERRACOTTA_STAIRS.get());
+        tag(BlockTags.SLABS)
+                .add(ModBlocks.TERRACOTTA_SLAB.get());
     }
 }
