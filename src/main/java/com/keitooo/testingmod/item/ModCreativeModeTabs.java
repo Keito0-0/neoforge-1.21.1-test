@@ -86,6 +86,54 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.MAGENTA_TERRACOTTA_SLAB);
                         output.accept(ModBlocks.PINK_TERRACOTTA_STAIRS);
                         output.accept(ModBlocks.PINK_TERRACOTTA_SLAB);
+
+                        output.accept(ModBlocks.PRISMARINE_BRICK_WALL);
+                        output.accept(ModBlocks.DARK_PRISMARINE_WALL);
+
+                        output.accept(ModBlocks.CALCITE_STAIRS);
+                        output.accept(ModBlocks.CALCITE_SLAB);
+                        output.accept(ModBlocks.CALCITE_WALL);
+                        output.accept(ModBlocks.DRIPSTONE_STAIRS);
+                        output.accept(ModBlocks.DRIPSTONE_SLAB);
+                        output.accept(ModBlocks.DRIPSTONE_WALL);
+                        output.accept(ModBlocks.PACKED_MUD_STAIRS);
+                        output.accept(ModBlocks.PACKED_MUD_SLAB);
+                        output.accept(ModBlocks.PACKED_MUD_WALL);
+                        output.accept(ModBlocks.ICE_STAIRS);
+                        output.accept(ModBlocks.ICE_SLAB);
+                        output.accept(ModBlocks.ICE_WALL);
+                        output.accept(ModBlocks.PACKED_ICE_STAIRS);
+                        output.accept(ModBlocks.PACKED_ICE_SLAB);
+                        output.accept(ModBlocks.PACKED_ICE_WALL);
+                        output.accept(ModBlocks.BLUE_ICE_STAIRS);
+                        output.accept(ModBlocks.BLUE_ICE_SLAB);
+                        output.accept(ModBlocks.BLUE_ICE_WALL);
+                        output.accept(ModBlocks.MUD_STAIRS);
+                        output.accept(ModBlocks.MUD_SLAB);
+                        output.accept(ModBlocks.MUD_WALL);
+                        output.accept(ModBlocks.CLAY_STAIRS);
+                        output.accept(ModBlocks.CLAY_SLAB);
+                        output.accept(ModBlocks.CLAY_WALL);
+                        output.accept(ModBlocks.MOSS_STAIRS);
+                        output.accept(ModBlocks.MOSS_SLAB);
+                        output.accept(ModBlocks.MOSS_WALL);
+                        output.accept(ModBlocks.NETHERRACK_STAIRS);
+                        output.accept(ModBlocks.NETHERRACK_SLAB);
+                        output.accept(ModBlocks.NETHERRACK_WALL);
+//                        output.accept(ModBlocks.BASALT_STAIRS);
+//                        output.accept(ModBlocks.BASALT_SLAB);
+//                        output.accept(ModBlocks.BASALT_WALL);
+                        output.accept(ModBlocks.SMOOTH_BASALT_STAIRS);
+                        output.accept(ModBlocks.SMOOTH_BASALT_SLAB);
+                        output.accept(ModBlocks.SMOOTH_BASALT_WALL);
+//                        output.accept(ModBlocks.POLISHED_BASALT_STAIRS);
+//                        output.accept(ModBlocks.POLISHED_BASALT_SLAB);
+//                        output.accept(ModBlocks.POLISHED_BASALT_WALL);
+                        output.accept(ModBlocks.QUARTZ_BRICK_STAIRS);
+                        output.accept(ModBlocks.QUARTZ_BRICK_SLAB);
+                        output.accept(ModBlocks.QUARTZ_BRICK_WALL);
+                        output.accept(ModBlocks.QUARTZ_WALL);
+                        output.accept(ModBlocks.SMOOTH_QUARTZ_WALL);
                     }).build());
 
 

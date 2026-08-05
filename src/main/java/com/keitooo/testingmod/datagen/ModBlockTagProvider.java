@@ -65,6 +65,9 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.MAGENTA_TERRACOTTA_STAIRS.get())
                 .add(ModBlocks.PINK_TERRACOTTA_SLAB.get())
                 .add(ModBlocks.PINK_TERRACOTTA_STAIRS.get())
+
+                .add(ModBlocks.PRISMARINE_BRICK_WALL.get())
+                .add(ModBlocks.DARK_PRISMARINE_WALL.get())
                 ;
 
         tag(BlockTags.NEEDS_STONE_TOOL)
@@ -81,7 +84,28 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         tag(BlockTags.FENCE_GATES)
                 .add(ModBlocks.SUNSTONE_FENCE_GATE.get());
         tag(BlockTags.WALLS)
-                .add(ModBlocks.SUNSTONE_WALL.get());
+                .add(ModBlocks.SUNSTONE_WALL.get())
+
+                .add(ModBlocks.PRISMARINE_BRICK_WALL.get())
+                .add(ModBlocks.DARK_PRISMARINE_WALL.get())
+
+                .add(ModBlocks.CALCITE_WALL.get())
+                .add(ModBlocks.DRIPSTONE_WALL.get())
+                .add(ModBlocks.PACKED_MUD_WALL.get())
+                .add(ModBlocks.ICE_WALL.get())
+                .add(ModBlocks.PACKED_ICE_WALL.get())
+                .add(ModBlocks.BLUE_ICE_WALL.get())
+                .add(ModBlocks.MUD_WALL.get())
+                .add(ModBlocks.CLAY_WALL.get())
+                .add(ModBlocks.MOSS_WALL.get())
+                .add(ModBlocks.NETHERRACK_WALL.get())
+//                .add(ModBlocks.BASALT_WALL.get())
+                .add(ModBlocks.SMOOTH_BASALT_WALL.get())
+//                .add(ModBlocks.POLISHED_BASALT_WALL.get())
+                .add(ModBlocks.QUARTZ_WALL.get())
+                .add(ModBlocks.QUARTZ_BRICK_WALL.get())
+                .add(ModBlocks.SMOOTH_QUARTZ_WALL.get())
+                ;
 
         tag(BlockTags.STAIRS)
                 .add(ModBlocks.TERRACOTTA_STAIRS.get());

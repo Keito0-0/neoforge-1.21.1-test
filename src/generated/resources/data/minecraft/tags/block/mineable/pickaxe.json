@@ -44,6 +44,8 @@
     "testingmod:magenta_terracotta_slab",
     "testingmod:magenta_terracotta_stairs",
     "testingmod:pink_terracotta_slab",
-    "testingmod:pink_terracotta_stairs"
+    "testingmod:pink_terracotta_stairs",
+    "testingmod:prismarine_brick_wall",
+    "testingmod:dark_prismarine_wall"
   ]
 }

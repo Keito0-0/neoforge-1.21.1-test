@@ -73,6 +73,68 @@ public class ModBlockStateProvider extends BlockStateProvider {
         fenceGateBlock(ModBlocks.SUNSTONE_FENCE_GATE.get(), blockTexture(ModBlocks.SUNSTONE_BLOCK.get())); // fence gate
         wallBlock(ModBlocks.SUNSTONE_WALL.get(), blockTexture(ModBlocks.SUNSTONE_BLOCK.get())); // wall
 
+        wallBlock(ModBlocks.PRISMARINE_BRICK_WALL.get(), blockTexture(Blocks.PRISMARINE_BRICKS));
+        wallBlock(ModBlocks.DARK_PRISMARINE_WALL.get(), blockTexture(Blocks.DARK_PRISMARINE));
+
+        stairsBlock(ModBlocks.CALCITE_STAIRS.get(), blockTexture(Blocks.CALCITE));
+        slabBlock(ModBlocks.CALCITE_SLAB.get(), blockTexture(Blocks.CALCITE), blockTexture(Blocks.CALCITE));
+        wallBlock(ModBlocks.CALCITE_WALL.get(), blockTexture(Blocks.CALCITE));
+
+        stairsBlock(ModBlocks.DRIPSTONE_STAIRS.get(), blockTexture(Blocks.DRIPSTONE_BLOCK));
+        slabBlock(ModBlocks.DRIPSTONE_SLAB.get(), blockTexture(Blocks.DRIPSTONE_BLOCK), blockTexture(Blocks.DRIPSTONE_BLOCK));
+        wallBlock(ModBlocks.DRIPSTONE_WALL.get(), blockTexture(Blocks.DRIPSTONE_BLOCK));
+
+        stairsBlock(ModBlocks.PACKED_MUD_STAIRS.get(), blockTexture(Blocks.PACKED_MUD));
+        slabBlock(ModBlocks.PACKED_MUD_SLAB.get(), blockTexture(Blocks.PACKED_MUD), blockTexture(Blocks.PACKED_MUD));
+        wallBlock(ModBlocks.PACKED_MUD_WALL.get(), blockTexture(Blocks.PACKED_MUD));
+
+        stairsBlock(ModBlocks.ICE_STAIRS.get(), blockTexture(Blocks.ICE));
+        slabBlock(ModBlocks.ICE_SLAB.get(), blockTexture(Blocks.ICE), blockTexture(Blocks.ICE));
+        wallBlock(ModBlocks.ICE_WALL.get(), blockTexture(Blocks.ICE));
+
+        stairsBlock(ModBlocks.PACKED_ICE_STAIRS.get(), blockTexture(Blocks.PACKED_ICE));
+        slabBlock(ModBlocks.PACKED_ICE_SLAB.get(), blockTexture(Blocks.PACKED_ICE), blockTexture(Blocks.PACKED_ICE));
+        wallBlock(ModBlocks.PACKED_ICE_WALL.get(), blockTexture(Blocks.PACKED_ICE));
+
+        stairsBlock(ModBlocks.BLUE_ICE_STAIRS.get(), blockTexture(Blocks.BLUE_ICE));
+        slabBlock(ModBlocks.BLUE_ICE_SLAB.get(), blockTexture(Blocks.BLUE_ICE), blockTexture(Blocks.BLUE_ICE));
+        wallBlock(ModBlocks.BLUE_ICE_WALL.get(), blockTexture(Blocks.BLUE_ICE));
+
+        stairsBlock(ModBlocks.MUD_STAIRS.get(), blockTexture(Blocks.MUD));
+        slabBlock(ModBlocks.MUD_SLAB.get(), blockTexture(Blocks.MUD), blockTexture(Blocks.MUD));
+        wallBlock(ModBlocks.MUD_WALL.get(), blockTexture(Blocks.MUD));
+
+        stairsBlock(ModBlocks.CLAY_STAIRS.get(), blockTexture(Blocks.CLAY));
+        slabBlock(ModBlocks.CLAY_SLAB.get(), blockTexture(Blocks.CLAY), blockTexture(Blocks.CLAY));
+        wallBlock(ModBlocks.CLAY_WALL.get(), blockTexture(Blocks.CLAY));
+
+        stairsBlock(ModBlocks.MOSS_STAIRS.get(), blockTexture(Blocks.MOSS_BLOCK));
+        slabBlock(ModBlocks.MOSS_SLAB.get(), blockTexture(Blocks.MOSS_BLOCK), blockTexture(Blocks.MOSS_BLOCK));
+        wallBlock(ModBlocks.MOSS_WALL.get(), blockTexture(Blocks.MOSS_BLOCK));
+
+        stairsBlock(ModBlocks.NETHERRACK_STAIRS.get(), blockTexture(Blocks.NETHERRACK));
+        slabBlock(ModBlocks.NETHERRACK_SLAB.get(), blockTexture(Blocks.NETHERRACK), blockTexture(Blocks.NETHERRACK));
+        wallBlock(ModBlocks.NETHERRACK_WALL.get(), blockTexture(Blocks.NETHERRACK));
+
+//        stairsBlock(ModBlocks.BASALT_STAIRS.get(), blockTexture(Blocks.BASALT));
+//        slabBlock(ModBlocks.BASALT_SLAB.get(), blockTexture(Blocks.BASALT), blockTexture(Blocks.BASALT));
+//        wallBlock(ModBlocks.BASALT_WALL.get(), blockTexture(Blocks.BASALT));
+
+        stairsBlock(ModBlocks.SMOOTH_BASALT_STAIRS.get(), blockTexture(Blocks.SMOOTH_BASALT));
+        slabBlock(ModBlocks.SMOOTH_BASALT_SLAB.get(), blockTexture(Blocks.SMOOTH_BASALT), blockTexture(Blocks.SMOOTH_BASALT));
+        wallBlock(ModBlocks.SMOOTH_BASALT_WALL.get(), blockTexture(Blocks.SMOOTH_BASALT));
+
+//        stairsBlock(ModBlocks.POLISHED_BASALT_STAIRS.get(), blockTexture(Blocks.POLISHED_BASALT));
+//        slabBlock(ModBlocks.POLISHED_BASALT_SLAB.get(), blockTexture(Blocks.POLISHED_BASALT), blockTexture(Blocks.POLISHED_BASALT));
+//        wallBlock(ModBlocks.POLISHED_BASALT_WALL.get(), blockTexture(Blocks.POLISHED_BASALT));
+
+        stairsBlock(ModBlocks.QUARTZ_BRICK_STAIRS.get(), blockTexture(Blocks.QUARTZ_BRICKS));
+        slabBlock(ModBlocks.QUARTZ_BRICK_SLAB.get(), blockTexture(Blocks.QUARTZ_BRICKS), blockTexture(Blocks.QUARTZ_BRICKS));
+        wallBlock(ModBlocks.QUARTZ_BRICK_WALL.get(), blockTexture(Blocks.QUARTZ_BRICKS));
+
+//        wallBlock(ModBlocks.QUARTZ_WALL.get(), blockTexture(Blocks.QUARTZ_BLOCK));
+//        wallBlock(ModBlocks.SMOOTH_QUARTZ_WALL.get(), blockTexture(Blocks.SMOOTH_QUARTZ));
+
 
         doorBlockWithRenderType(ModBlocks.SUNSTONE_DOOR.get(), modLoc("block/sunstone_door_bottom"), modLoc("block/sunstone_door_top"), "cutout"); // door
         trapdoorBlockWithRenderType(ModBlocks.SUNSTONE_TRAPDOOR.get(), modLoc("block/sunstone_trapdoor"), true, "cutout"); // trapdoor
@@ -117,6 +179,35 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.MAGENTA_TERRACOTTA_SLAB);
         blockItem(ModBlocks.PINK_TERRACOTTA_STAIRS);
         blockItem(ModBlocks.PINK_TERRACOTTA_SLAB);
+
+        blockItem(ModBlocks.CALCITE_STAIRS);
+        blockItem(ModBlocks.CALCITE_SLAB);
+        blockItem(ModBlocks.DRIPSTONE_STAIRS);
+        blockItem(ModBlocks.DRIPSTONE_SLAB);
+        blockItem(ModBlocks.PACKED_MUD_STAIRS);
+        blockItem(ModBlocks.PACKED_MUD_SLAB);
+        blockItem(ModBlocks.ICE_STAIRS);
+        blockItem(ModBlocks.ICE_SLAB);
+        blockItem(ModBlocks.PACKED_ICE_STAIRS);
+        blockItem(ModBlocks.PACKED_ICE_SLAB);
+        blockItem(ModBlocks.BLUE_ICE_STAIRS);
+        blockItem(ModBlocks.BLUE_ICE_SLAB);
+        blockItem(ModBlocks.MUD_STAIRS);
+        blockItem(ModBlocks.MUD_SLAB);
+        blockItem(ModBlocks.CLAY_STAIRS);
+        blockItem(ModBlocks.CLAY_SLAB);
+        blockItem(ModBlocks.MOSS_STAIRS);
+        blockItem(ModBlocks.MOSS_SLAB);
+        blockItem(ModBlocks.NETHERRACK_STAIRS);
+        blockItem(ModBlocks.NETHERRACK_SLAB);
+//        blockItem(ModBlocks.BASALT_STAIRS);
+//        blockItem(ModBlocks.BASALT_SLAB);
+        blockItem(ModBlocks.SMOOTH_BASALT_STAIRS);
+        blockItem(ModBlocks.SMOOTH_BASALT_SLAB);
+//        blockItem(ModBlocks.POLISHED_BASALT_STAIRS);
+//        blockItem(ModBlocks.POLISHED_BASALT_SLAB);
+        blockItem(ModBlocks.QUARTZ_BRICK_STAIRS);
+        blockItem(ModBlocks.QUARTZ_BRICK_SLAB);
 
         blockItem(ModBlocks.SUNSTONE_PRESSURE_PLATE);
         blockItem(ModBlocks.SUNSTONE_FENCE_GATE);

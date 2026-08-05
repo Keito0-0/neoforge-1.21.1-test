@@ -59,7 +59,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         fenceBuilder(ModBlocks.SUNSTONE_FENCE.get(), Ingredient.of(ModItems.SUNSTONE)).group("sunstone")
                 .unlockedBy("has_sunstone", has(ModItems.SUNSTONE)).save(recipeOutput);
         fenceGateBuilder(ModBlocks.SUNSTONE_FENCE_GATE.get(), Ingredient.of(ModItems.SUNSTONE)).group("sunstone")
-
                 .unlockedBy("has_sunstone", has(ModItems.SUNSTONE)).save(recipeOutput);
         wall(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SUNSTONE_WALL.get(), ModBlocks.SUNSTONE_BLOCK.get());
 
@@ -119,6 +118,10 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         stairBuilder(ModBlocks.PINK_TERRACOTTA_STAIRS.get(), Ingredient.of(Blocks.PINK_TERRACOTTA)).group("terracotta")
                 .unlockedBy("has_terracotta", has(Blocks.PINK_TERRACOTTA)).save(recipeOutput);
         slab(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.PINK_TERRACOTTA_SLAB.get(), Blocks.PINK_TERRACOTTA);
+
+
+        wall(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.PRISMARINE_BRICK_WALL.get(), Blocks.PRISMARINE_BRICKS);
+        wall(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.DARK_PRISMARINE_WALL.get(), Blocks.DARK_PRISMARINE);
     }
 
 

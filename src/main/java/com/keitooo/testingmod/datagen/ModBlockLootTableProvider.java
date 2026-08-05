@@ -26,6 +26,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
+        // datagen fails without loot tables
         dropSelf(ModBlocks.ROSE_GOLD_BLOCK.get());
         dropSelf(ModBlocks.MAGIC_BLOCK.get());
 
@@ -41,6 +42,9 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.SUNSTONE_FENCE_GATE.get());
         dropSelf(ModBlocks.SUNSTONE_WALL.get());
         dropSelf(ModBlocks.SUNSTONE_TRAPDOOR.get());
+
+        dropSelf(ModBlocks.PRISMARINE_BRICK_WALL.get());
+        dropSelf(ModBlocks.DARK_PRISMARINE_WALL.get());
 
         dropSelf(ModBlocks.TERRACOTTA_STAIRS.get());
         add(ModBlocks.TERRACOTTA_SLAB.get(),
@@ -93,6 +97,80 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.PINK_TERRACOTTA_STAIRS.get());
         add(ModBlocks.PINK_TERRACOTTA_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.PINK_TERRACOTTA_SLAB.get()));
+
+
+        dropSelf(ModBlocks.CALCITE_STAIRS.get());
+        add(ModBlocks.CALCITE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.CALCITE_SLAB.get()));
+        dropSelf(ModBlocks.CALCITE_WALL.get());
+
+        dropSelf(ModBlocks.DRIPSTONE_STAIRS.get());
+        add(ModBlocks.DRIPSTONE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.DRIPSTONE_SLAB.get()));
+        dropSelf(ModBlocks.DRIPSTONE_WALL.get());
+
+        dropSelf(ModBlocks.PACKED_MUD_STAIRS.get());
+        add(ModBlocks.PACKED_MUD_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.PACKED_MUD_SLAB.get()));
+        dropSelf(ModBlocks.PACKED_MUD_WALL.get());
+
+        dropSelf(ModBlocks.ICE_STAIRS.get());
+        add(ModBlocks.ICE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.ICE_SLAB.get()));
+        dropSelf(ModBlocks.ICE_WALL.get());
+
+        dropSelf(ModBlocks.PACKED_ICE_STAIRS.get());
+        add(ModBlocks.PACKED_ICE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.PACKED_ICE_SLAB.get()));
+        dropSelf(ModBlocks.PACKED_ICE_WALL.get());
+
+        dropSelf(ModBlocks.BLUE_ICE_STAIRS.get());
+        add(ModBlocks.BLUE_ICE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.BLUE_ICE_SLAB.get()));
+        dropSelf(ModBlocks.BLUE_ICE_WALL.get());
+
+        dropSelf(ModBlocks.MUD_STAIRS.get());
+        add(ModBlocks.MUD_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.MUD_SLAB.get()));
+        dropSelf(ModBlocks.MUD_WALL.get());
+
+        dropSelf(ModBlocks.CLAY_STAIRS.get());
+        add(ModBlocks.CLAY_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.CLAY_SLAB.get()));
+        dropSelf(ModBlocks.CLAY_WALL.get());
+
+        dropSelf(ModBlocks.MOSS_STAIRS.get());
+        add(ModBlocks.MOSS_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.MOSS_SLAB.get()));
+        dropSelf(ModBlocks.MOSS_WALL.get());
+
+        dropSelf(ModBlocks.NETHERRACK_STAIRS.get());
+        add(ModBlocks.NETHERRACK_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.NETHERRACK_SLAB.get()));
+        dropSelf(ModBlocks.NETHERRACK_WALL.get());
+
+//        dropSelf(ModBlocks.BASALT_STAIRS.get());
+//        add(ModBlocks.BASALT_SLAB.get(),
+//                block -> createSlabItemTable(ModBlocks.BASALT_SLAB.get()));
+//        dropSelf(ModBlocks.BASALT_WALL.get());
+
+        dropSelf(ModBlocks.SMOOTH_BASALT_STAIRS.get());
+        add(ModBlocks.SMOOTH_BASALT_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.SMOOTH_BASALT_SLAB.get()));
+        dropSelf(ModBlocks.SMOOTH_BASALT_WALL.get());
+
+//        dropSelf(ModBlocks.POLISHED_BASALT_STAIRS.get());
+//        add(ModBlocks.POLISHED_BASALT_SLAB.get(),
+//                block -> createSlabItemTable(ModBlocks.POLISHED_BASALT_SLAB.get()));
+//        dropSelf(ModBlocks.POLISHED_BASALT_WALL.get());
+
+        dropSelf(ModBlocks.QUARTZ_BRICK_STAIRS.get());
+        add(ModBlocks.QUARTZ_BRICK_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.QUARTZ_BRICK_SLAB.get()));
+        dropSelf(ModBlocks.QUARTZ_BRICK_WALL.get());
+
+        dropSelf(ModBlocks.QUARTZ_WALL.get());
+        dropSelf(ModBlocks.SMOOTH_QUARTZ_WALL.get());
 
         dropSelf(ModBlocks.CUSTOM_FLOWER.get());
 

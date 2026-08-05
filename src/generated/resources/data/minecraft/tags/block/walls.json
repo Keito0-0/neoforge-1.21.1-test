@@ -1,5 +1,21 @@
 {
   "values": [
-    "testingmod:sunstone_wall"
+    "testingmod:sunstone_wall",
+    "testingmod:prismarine_brick_wall",
+    "testingmod:dark_prismarine_wall",
+    "testingmod:calcite_wall",
+    "testingmod:dripstone_wall",
+    "testingmod:packed_mud_wall",
+    "testingmod:ice_wall",
+    "testingmod:packed_ice_wall",
+    "testingmod:blue_ice_wall",
+    "testingmod:mud_wall",
+    "testingmod:clay_wall",
+    "testingmod:moss_wall",
+    "testingmod:netherrack_wall",
+    "testingmod:smooth_basalt_wall",
+    "testingmod:quartz_wall",
+    "testingmod:quartz_brick_wall",
+    "testingmod:smooth_quartz_wall"
   ]
 }

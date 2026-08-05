@@ -6,6 +6,7 @@ import com.keitooo.testingmod.testingmod;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.registries.DeferredBlock;
@@ -28,6 +29,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         fenceItem(ModBlocks.SUNSTONE_FENCE, ModBlocks.SUNSTONE_BLOCK);
         wallItem(ModBlocks.SUNSTONE_WALL, ModBlocks.SUNSTONE_BLOCK);
 
+//        wallItemVanilla(ModBlocks.PRISMARINE_BRICK_WALL, Blocks.PRISMARINE_BRICKS);
+//        wallItemVanilla(ModBlocks.DARK_PRISMARINE_WALL, Blocks.DARK_PRISMARINE);
+
         basicItem(ModBlocks.SUNSTONE_DOOR.asItem());
     }
 
@@ -48,4 +52,9 @@ public class ModItemModelProvider extends ItemModelProvider {
                 .texture("wall", ResourceLocation.fromNamespaceAndPath(testingmod.MODID,
                 "block/" + baseBlock.getId().getPath()));
     }
+//    public void wallItemVanilla(DeferredBlock<?> block, Block baseBlock) {
+//        this.withExistingParent(block.getId().getPath(), mcLoc("block/wall_inventory"))
+//                .texture("wall", ResourceLocation.fromNamespaceAndPath(testingmod.MODID,
+//                "block/" + baseBlock));
+//    }
 }
