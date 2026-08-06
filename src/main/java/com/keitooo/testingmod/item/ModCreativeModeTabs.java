@@ -87,6 +87,39 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.PINK_TERRACOTTA_STAIRS);
                         output.accept(ModBlocks.PINK_TERRACOTTA_SLAB);
 
+                        output.accept(ModBlocks.WHITE_CONCRETE_STAIRS);
+                        output.accept(ModBlocks.WHITE_CONCRETE_SLAB);
+                        output.accept(ModBlocks.LIGHT_GRAY_CONCRETE_STAIRS);
+                        output.accept(ModBlocks.LIGHT_GRAY_CONCRETE_SLAB);
+                        output.accept(ModBlocks.GRAY_CONCRETE_STAIRS);
+                        output.accept(ModBlocks.GRAY_CONCRETE_SLAB);
+                        output.accept(ModBlocks.BLACK_CONCRETE_STAIRS);
+                        output.accept(ModBlocks.BLACK_CONCRETE_SLAB);
+                        output.accept(ModBlocks.BROWN_CONCRETE_STAIRS);
+                        output.accept(ModBlocks.BROWN_CONCRETE_SLAB);
+                        output.accept(ModBlocks.RED_CONCRETE_STAIRS);
+                        output.accept(ModBlocks.RED_CONCRETE_SLAB);
+                        output.accept(ModBlocks.ORANGE_CONCRETE_STAIRS);
+                        output.accept(ModBlocks.ORANGE_CONCRETE_SLAB);
+                        output.accept(ModBlocks.YELLOW_CONCRETE_STAIRS);
+                        output.accept(ModBlocks.YELLOW_CONCRETE_SLAB);
+                        output.accept(ModBlocks.LIME_CONCRETE_STAIRS);
+                        output.accept(ModBlocks.LIME_CONCRETE_SLAB);
+                        output.accept(ModBlocks.GREEN_CONCRETE_STAIRS);
+                        output.accept(ModBlocks.GREEN_CONCRETE_SLAB);
+                        output.accept(ModBlocks.CYAN_CONCRETE_STAIRS);
+                        output.accept(ModBlocks.CYAN_CONCRETE_SLAB);
+                        output.accept(ModBlocks.LIGHT_BLUE_CONCRETE_STAIRS);
+                        output.accept(ModBlocks.LIGHT_BLUE_CONCRETE_SLAB);
+                        output.accept(ModBlocks.BLUE_CONCRETE_STAIRS);
+                        output.accept(ModBlocks.BLUE_CONCRETE_SLAB);
+                        output.accept(ModBlocks.PURPLE_CONCRETE_STAIRS);
+                        output.accept(ModBlocks.PURPLE_CONCRETE_SLAB);
+                        output.accept(ModBlocks.MAGENTA_CONCRETE_STAIRS);
+                        output.accept(ModBlocks.MAGENTA_CONCRETE_SLAB);
+                        output.accept(ModBlocks.PINK_CONCRETE_STAIRS);
+                        output.accept(ModBlocks.PINK_CONCRETE_SLAB);
+
                         output.accept(ModBlocks.PRISMARINE_BRICK_WALL);
                         output.accept(ModBlocks.DARK_PRISMARINE_WALL);
 

@@ -66,6 +66,39 @@ public class ModBlockStateProvider extends BlockStateProvider {
         stairsBlock(ModBlocks.PINK_TERRACOTTA_STAIRS.get(), blockTexture(Blocks.PINK_TERRACOTTA));
         slabBlock(ModBlocks.PINK_TERRACOTTA_SLAB.get(), blockTexture(Blocks.PINK_TERRACOTTA), blockTexture(Blocks.PINK_TERRACOTTA));
 
+        stairsBlock(ModBlocks.WHITE_CONCRETE_STAIRS.get(), blockTexture(Blocks.WHITE_CONCRETE));
+        slabBlock(ModBlocks.WHITE_CONCRETE_SLAB.get(), blockTexture(Blocks.WHITE_CONCRETE), blockTexture(Blocks.WHITE_CONCRETE));
+        stairsBlock(ModBlocks.LIGHT_GRAY_CONCRETE_STAIRS.get(), blockTexture(Blocks.LIGHT_GRAY_CONCRETE));
+        slabBlock(ModBlocks.LIGHT_GRAY_CONCRETE_SLAB.get(), blockTexture(Blocks.LIGHT_GRAY_CONCRETE), blockTexture(Blocks.LIGHT_GRAY_CONCRETE));
+        stairsBlock(ModBlocks.GRAY_CONCRETE_STAIRS.get(), blockTexture(Blocks.GRAY_CONCRETE));
+        slabBlock(ModBlocks.GRAY_CONCRETE_SLAB.get(), blockTexture(Blocks.GRAY_CONCRETE), blockTexture(Blocks.GRAY_CONCRETE));
+        stairsBlock(ModBlocks.BLACK_CONCRETE_STAIRS.get(), blockTexture(Blocks.BLACK_CONCRETE));
+        slabBlock(ModBlocks.BLACK_CONCRETE_SLAB.get(), blockTexture(Blocks.BLACK_CONCRETE), blockTexture(Blocks.BLACK_CONCRETE));
+        stairsBlock(ModBlocks.BROWN_CONCRETE_STAIRS.get(), blockTexture(Blocks.BROWN_CONCRETE));
+        slabBlock(ModBlocks.BROWN_CONCRETE_SLAB.get(), blockTexture(Blocks.BROWN_CONCRETE), blockTexture(Blocks.BROWN_CONCRETE));
+        stairsBlock(ModBlocks.RED_CONCRETE_STAIRS.get(), blockTexture(Blocks.RED_CONCRETE));
+        slabBlock(ModBlocks.RED_CONCRETE_SLAB.get(), blockTexture(Blocks.RED_CONCRETE), blockTexture(Blocks.RED_CONCRETE));
+        stairsBlock(ModBlocks.ORANGE_CONCRETE_STAIRS.get(), blockTexture(Blocks.ORANGE_CONCRETE));
+        slabBlock(ModBlocks.ORANGE_CONCRETE_SLAB.get(), blockTexture(Blocks.ORANGE_CONCRETE), blockTexture(Blocks.ORANGE_CONCRETE));
+        stairsBlock(ModBlocks.YELLOW_CONCRETE_STAIRS.get(), blockTexture(Blocks.YELLOW_CONCRETE));
+        slabBlock(ModBlocks.YELLOW_CONCRETE_SLAB.get(), blockTexture(Blocks.YELLOW_CONCRETE), blockTexture(Blocks.YELLOW_CONCRETE));
+        stairsBlock(ModBlocks.LIME_CONCRETE_STAIRS.get(), blockTexture(Blocks.LIME_CONCRETE));
+        slabBlock(ModBlocks.LIME_CONCRETE_SLAB.get(), blockTexture(Blocks.LIME_CONCRETE), blockTexture(Blocks.LIME_CONCRETE));
+        stairsBlock(ModBlocks.GREEN_CONCRETE_STAIRS.get(), blockTexture(Blocks.GREEN_CONCRETE));
+        slabBlock(ModBlocks.GREEN_CONCRETE_SLAB.get(), blockTexture(Blocks.GREEN_CONCRETE), blockTexture(Blocks.GREEN_CONCRETE));
+        stairsBlock(ModBlocks.CYAN_CONCRETE_STAIRS.get(), blockTexture(Blocks.CYAN_CONCRETE));
+        slabBlock(ModBlocks.CYAN_CONCRETE_SLAB.get(), blockTexture(Blocks.CYAN_CONCRETE), blockTexture(Blocks.CYAN_CONCRETE));
+        stairsBlock(ModBlocks.LIGHT_BLUE_CONCRETE_STAIRS.get(), blockTexture(Blocks.LIGHT_BLUE_CONCRETE));
+        slabBlock(ModBlocks.LIGHT_BLUE_CONCRETE_SLAB.get(), blockTexture(Blocks.LIGHT_BLUE_CONCRETE), blockTexture(Blocks.LIGHT_BLUE_CONCRETE));
+        stairsBlock(ModBlocks.BLUE_CONCRETE_STAIRS.get(), blockTexture(Blocks.BLUE_CONCRETE));
+        slabBlock(ModBlocks.BLUE_CONCRETE_SLAB.get(), blockTexture(Blocks.BLUE_CONCRETE), blockTexture(Blocks.BLUE_CONCRETE));
+        stairsBlock(ModBlocks.PURPLE_CONCRETE_STAIRS.get(), blockTexture(Blocks.PURPLE_CONCRETE));
+        slabBlock(ModBlocks.PURPLE_CONCRETE_SLAB.get(), blockTexture(Blocks.PURPLE_CONCRETE), blockTexture(Blocks.PURPLE_CONCRETE));
+        stairsBlock(ModBlocks.MAGENTA_CONCRETE_STAIRS.get(), blockTexture(Blocks.MAGENTA_CONCRETE));
+        slabBlock(ModBlocks.MAGENTA_CONCRETE_SLAB.get(), blockTexture(Blocks.MAGENTA_CONCRETE), blockTexture(Blocks.MAGENTA_CONCRETE));
+        stairsBlock(ModBlocks.PINK_CONCRETE_STAIRS.get(), blockTexture(Blocks.PINK_CONCRETE));
+        slabBlock(ModBlocks.PINK_CONCRETE_SLAB.get(), blockTexture(Blocks.PINK_CONCRETE), blockTexture(Blocks.PINK_CONCRETE));
+
         buttonBlock(ModBlocks.SUNSTONE_BUTTON.get(), blockTexture(ModBlocks.SUNSTONE_BLOCK.get())); // button
         pressurePlateBlock(ModBlocks.SUNSTONE_PRESSURE_PLATE.get(), blockTexture(ModBlocks.SUNSTONE_BLOCK.get())); // pressure plate
 
@@ -179,6 +212,39 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.MAGENTA_TERRACOTTA_SLAB);
         blockItem(ModBlocks.PINK_TERRACOTTA_STAIRS);
         blockItem(ModBlocks.PINK_TERRACOTTA_SLAB);
+
+        blockItem(ModBlocks.WHITE_CONCRETE_STAIRS);
+        blockItem(ModBlocks.WHITE_CONCRETE_SLAB);
+        blockItem(ModBlocks.LIGHT_GRAY_CONCRETE_STAIRS);
+        blockItem(ModBlocks.LIGHT_GRAY_CONCRETE_SLAB);
+        blockItem(ModBlocks.GRAY_CONCRETE_STAIRS);
+        blockItem(ModBlocks.GRAY_CONCRETE_SLAB);
+        blockItem(ModBlocks.BLACK_CONCRETE_STAIRS);
+        blockItem(ModBlocks.BLACK_CONCRETE_SLAB);
+        blockItem(ModBlocks.BROWN_CONCRETE_STAIRS);
+        blockItem(ModBlocks.BROWN_CONCRETE_SLAB);
+        blockItem(ModBlocks.RED_CONCRETE_STAIRS);
+        blockItem(ModBlocks.RED_CONCRETE_SLAB);
+        blockItem(ModBlocks.ORANGE_CONCRETE_STAIRS);
+        blockItem(ModBlocks.ORANGE_CONCRETE_SLAB);
+        blockItem(ModBlocks.YELLOW_CONCRETE_STAIRS);
+        blockItem(ModBlocks.YELLOW_CONCRETE_SLAB);
+        blockItem(ModBlocks.LIME_CONCRETE_STAIRS);
+        blockItem(ModBlocks.LIME_CONCRETE_SLAB);
+        blockItem(ModBlocks.GREEN_CONCRETE_STAIRS);
+        blockItem(ModBlocks.GREEN_CONCRETE_SLAB);
+        blockItem(ModBlocks.CYAN_CONCRETE_STAIRS);
+        blockItem(ModBlocks.CYAN_CONCRETE_SLAB);
+        blockItem(ModBlocks.LIGHT_BLUE_CONCRETE_STAIRS);
+        blockItem(ModBlocks.LIGHT_BLUE_CONCRETE_SLAB);
+        blockItem(ModBlocks.BLUE_CONCRETE_STAIRS);
+        blockItem(ModBlocks.BLUE_CONCRETE_SLAB);
+        blockItem(ModBlocks.PURPLE_CONCRETE_STAIRS);
+        blockItem(ModBlocks.PURPLE_CONCRETE_SLAB);
+        blockItem(ModBlocks.MAGENTA_CONCRETE_STAIRS);
+        blockItem(ModBlocks.MAGENTA_CONCRETE_SLAB);
+        blockItem(ModBlocks.PINK_CONCRETE_STAIRS);
+        blockItem(ModBlocks.PINK_CONCRETE_SLAB);
 
         blockItem(ModBlocks.CALCITE_STAIRS);
         blockItem(ModBlocks.CALCITE_SLAB);
