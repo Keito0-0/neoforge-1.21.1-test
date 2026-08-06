@@ -143,69 +143,69 @@ public class ModBlocks {
 
     // Concrete stairs and slabs!
     public static final DeferredBlock<StairBlock> WHITE_CONCRETE_STAIRS = registerBlock("white_concrete_stairs",
-            () -> new StairBlock(Blocks.WHITE_CONCRETE.defaultBlockState(), BlockBehaviour.Properties.of().strength(1.25f,4.2f).requiresCorrectToolForDrops()));
+            () -> new StairBlock(Blocks.WHITE_CONCRETE.defaultBlockState(), BlockBehaviour.Properties.of().strength(1.8f).requiresCorrectToolForDrops()));
     public static final DeferredBlock<SlabBlock> WHITE_CONCRETE_SLAB = registerBlock("white_concrete_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(1.25f,4.2f).requiresCorrectToolForDrops()));
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(1.8f).requiresCorrectToolForDrops()));
     public static final DeferredBlock<StairBlock> LIGHT_GRAY_CONCRETE_STAIRS = registerBlock("light_gray_concrete_stairs",
-            () -> new StairBlock(Blocks.LIGHT_GRAY_CONCRETE.defaultBlockState(), BlockBehaviour.Properties.of().strength(1.25f,4.2f).requiresCorrectToolForDrops()));
+            () -> new StairBlock(Blocks.LIGHT_GRAY_CONCRETE.defaultBlockState(), BlockBehaviour.Properties.of().strength(1.8f).requiresCorrectToolForDrops()));
     public static final DeferredBlock<SlabBlock> LIGHT_GRAY_CONCRETE_SLAB = registerBlock("light_gray_concrete_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(1.25f,4.2f).requiresCorrectToolForDrops()));
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(1.8f).requiresCorrectToolForDrops()));
     public static final DeferredBlock<StairBlock> GRAY_CONCRETE_STAIRS = registerBlock("gray_concrete_stairs",
-            () -> new StairBlock(Blocks.GRAY_CONCRETE.defaultBlockState(), BlockBehaviour.Properties.of().strength(1.25f,4.2f).requiresCorrectToolForDrops()));
+            () -> new StairBlock(Blocks.GRAY_CONCRETE.defaultBlockState(), BlockBehaviour.Properties.of().strength(1.8f).requiresCorrectToolForDrops()));
     public static final DeferredBlock<SlabBlock> GRAY_CONCRETE_SLAB = registerBlock("gray_concrete_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(1.25f,4.2f).requiresCorrectToolForDrops()));
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(1.8f).requiresCorrectToolForDrops()));
     public static final DeferredBlock<StairBlock> BLACK_CONCRETE_STAIRS = registerBlock("black_concrete_stairs",
-            () -> new StairBlock(Blocks.BLACK_CONCRETE.defaultBlockState(), BlockBehaviour.Properties.of().strength(1.25f,4.2f).requiresCorrectToolForDrops()));
+            () -> new StairBlock(Blocks.BLACK_CONCRETE.defaultBlockState(), BlockBehaviour.Properties.of().strength(1.8f).requiresCorrectToolForDrops()));
     public static final DeferredBlock<SlabBlock> BLACK_CONCRETE_SLAB = registerBlock("black_concrete_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(1.25f,4.2f).requiresCorrectToolForDrops()));
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(1.8f).requiresCorrectToolForDrops()));
     public static final DeferredBlock<StairBlock> BROWN_CONCRETE_STAIRS = registerBlock("brown_concrete_stairs",
-            () -> new StairBlock(Blocks.BROWN_CONCRETE.defaultBlockState(), BlockBehaviour.Properties.of().strength(1.25f,4.2f).requiresCorrectToolForDrops()));
+            () -> new StairBlock(Blocks.BROWN_CONCRETE.defaultBlockState(), BlockBehaviour.Properties.of().strength(1.8f).requiresCorrectToolForDrops()));
     public static final DeferredBlock<SlabBlock> BROWN_CONCRETE_SLAB = registerBlock("brown_concrete_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(1.25f,4.2f).requiresCorrectToolForDrops()));
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(1.8f).requiresCorrectToolForDrops()));
     public static final DeferredBlock<StairBlock> RED_CONCRETE_STAIRS = registerBlock("red_concrete_stairs",
-            () -> new StairBlock(Blocks.RED_CONCRETE.defaultBlockState(), BlockBehaviour.Properties.of().strength(1.25f,4.2f).requiresCorrectToolForDrops()));
+            () -> new StairBlock(Blocks.RED_CONCRETE.defaultBlockState(), BlockBehaviour.Properties.of().strength(1.8f).requiresCorrectToolForDrops()));
     public static final DeferredBlock<SlabBlock> RED_CONCRETE_SLAB = registerBlock("red_concrete_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(1.25f,4.2f).requiresCorrectToolForDrops()));
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(1.8f).requiresCorrectToolForDrops()));
     public static final DeferredBlock<StairBlock> ORANGE_CONCRETE_STAIRS = registerBlock("orange_concrete_stairs",
-            () -> new StairBlock(Blocks.ORANGE_CONCRETE.defaultBlockState(), BlockBehaviour.Properties.of().strength(1.25f,4.2f).requiresCorrectToolForDrops()));
+            () -> new StairBlock(Blocks.ORANGE_CONCRETE.defaultBlockState(), BlockBehaviour.Properties.of().strength(1.8f).requiresCorrectToolForDrops()));
     public static final DeferredBlock<SlabBlock> ORANGE_CONCRETE_SLAB = registerBlock("orange_concrete_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(1.25f,4.2f).requiresCorrectToolForDrops()));
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(1.8f).requiresCorrectToolForDrops()));
     public static final DeferredBlock<StairBlock> YELLOW_CONCRETE_STAIRS = registerBlock("yellow_concrete_stairs",
-            () -> new StairBlock(Blocks.YELLOW_CONCRETE.defaultBlockState(), BlockBehaviour.Properties.of().strength(1.25f,4.2f).requiresCorrectToolForDrops()));
+            () -> new StairBlock(Blocks.YELLOW_CONCRETE.defaultBlockState(), BlockBehaviour.Properties.of().strength(1.8f).requiresCorrectToolForDrops()));
     public static final DeferredBlock<SlabBlock> YELLOW_CONCRETE_SLAB = registerBlock("yellow_concrete_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(1.25f,4.2f).requiresCorrectToolForDrops()));
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(1.8f).requiresCorrectToolForDrops()));
     public static final DeferredBlock<StairBlock> LIME_CONCRETE_STAIRS = registerBlock("lime_concrete_stairs",
-            () -> new StairBlock(Blocks.LIME_CONCRETE.defaultBlockState(), BlockBehaviour.Properties.of().strength(1.25f,4.2f).requiresCorrectToolForDrops()));
+            () -> new StairBlock(Blocks.LIME_CONCRETE.defaultBlockState(), BlockBehaviour.Properties.of().strength(1.8f).requiresCorrectToolForDrops()));
     public static final DeferredBlock<SlabBlock> LIME_CONCRETE_SLAB = registerBlock("lime_concrete_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(1.25f,4.2f).requiresCorrectToolForDrops()));
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(1.8f).requiresCorrectToolForDrops()));
     public static final DeferredBlock<StairBlock> GREEN_CONCRETE_STAIRS = registerBlock("green_concrete_stairs",
-            () -> new StairBlock(Blocks.GREEN_CONCRETE.defaultBlockState(), BlockBehaviour.Properties.of().strength(1.25f,4.2f).requiresCorrectToolForDrops()));
+            () -> new StairBlock(Blocks.GREEN_CONCRETE.defaultBlockState(), BlockBehaviour.Properties.of().strength(1.8f).requiresCorrectToolForDrops()));
     public static final DeferredBlock<SlabBlock> GREEN_CONCRETE_SLAB = registerBlock("green_concrete_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(1.25f,4.2f).requiresCorrectToolForDrops()));
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(1.8f).requiresCorrectToolForDrops()));
     public static final DeferredBlock<StairBlock> CYAN_CONCRETE_STAIRS = registerBlock("cyan_concrete_stairs",
-            () -> new StairBlock(Blocks.CYAN_CONCRETE.defaultBlockState(), BlockBehaviour.Properties.of().strength(1.25f,4.2f).requiresCorrectToolForDrops()));
+            () -> new StairBlock(Blocks.CYAN_CONCRETE.defaultBlockState(), BlockBehaviour.Properties.of().strength(1.8f).requiresCorrectToolForDrops()));
     public static final DeferredBlock<SlabBlock> CYAN_CONCRETE_SLAB = registerBlock("cyan_concrete_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(1.25f,4.2f).requiresCorrectToolForDrops()));
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(1.8f).requiresCorrectToolForDrops()));
     public static final DeferredBlock<StairBlock> LIGHT_BLUE_CONCRETE_STAIRS = registerBlock("light_blue_concrete_stairs",
-            () -> new StairBlock(Blocks.LIGHT_BLUE_CONCRETE.defaultBlockState(), BlockBehaviour.Properties.of().strength(1.25f,4.2f).requiresCorrectToolForDrops()));
+            () -> new StairBlock(Blocks.LIGHT_BLUE_CONCRETE.defaultBlockState(), BlockBehaviour.Properties.of().strength(1.8f).requiresCorrectToolForDrops()));
     public static final DeferredBlock<SlabBlock> LIGHT_BLUE_CONCRETE_SLAB = registerBlock("light_blue_concrete_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(1.25f,4.2f).requiresCorrectToolForDrops()));
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(1.8f).requiresCorrectToolForDrops()));
     public static final DeferredBlock<StairBlock> BLUE_CONCRETE_STAIRS = registerBlock("blue_concrete_stairs",
-            () -> new StairBlock(Blocks.BLUE_CONCRETE.defaultBlockState(), BlockBehaviour.Properties.of().strength(1.25f,4.2f).requiresCorrectToolForDrops()));
+            () -> new StairBlock(Blocks.BLUE_CONCRETE.defaultBlockState(), BlockBehaviour.Properties.of().strength(1.8f).requiresCorrectToolForDrops()));
     public static final DeferredBlock<SlabBlock> BLUE_CONCRETE_SLAB = registerBlock("blue_concrete_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(1.25f,4.2f).requiresCorrectToolForDrops()));
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(1.8f).requiresCorrectToolForDrops()));
     public static final DeferredBlock<StairBlock> PURPLE_CONCRETE_STAIRS = registerBlock("purple_concrete_stairs",
-            () -> new StairBlock(Blocks.PURPLE_CONCRETE.defaultBlockState(), BlockBehaviour.Properties.of().strength(1.25f,4.2f).requiresCorrectToolForDrops()));
+            () -> new StairBlock(Blocks.PURPLE_CONCRETE.defaultBlockState(), BlockBehaviour.Properties.of().strength(1.8f).requiresCorrectToolForDrops()));
     public static final DeferredBlock<SlabBlock> PURPLE_CONCRETE_SLAB = registerBlock("purple_concrete_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(1.25f,4.2f).requiresCorrectToolForDrops()));
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(1.8f).requiresCorrectToolForDrops()));
     public static final DeferredBlock<StairBlock> MAGENTA_CONCRETE_STAIRS = registerBlock("magenta_concrete_stairs",
-            () -> new StairBlock(Blocks.MAGENTA_CONCRETE.defaultBlockState(), BlockBehaviour.Properties.of().strength(1.25f,4.2f).requiresCorrectToolForDrops()));
+            () -> new StairBlock(Blocks.MAGENTA_CONCRETE.defaultBlockState(), BlockBehaviour.Properties.of().strength(1.8f).requiresCorrectToolForDrops()));
     public static final DeferredBlock<SlabBlock> MAGENTA_CONCRETE_SLAB = registerBlock("magenta_concrete_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(1.25f,4.2f).requiresCorrectToolForDrops()));
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(1.8f).requiresCorrectToolForDrops()));
     public static final DeferredBlock<StairBlock> PINK_CONCRETE_STAIRS = registerBlock("pink_concrete_stairs",
-            () -> new StairBlock(Blocks.PINK_CONCRETE.defaultBlockState(), BlockBehaviour.Properties.of().strength(1.25f,4.2f).requiresCorrectToolForDrops()));
+            () -> new StairBlock(Blocks.PINK_CONCRETE.defaultBlockState(), BlockBehaviour.Properties.of().strength(1.8f).requiresCorrectToolForDrops()));
     public static final DeferredBlock<SlabBlock> PINK_CONCRETE_SLAB = registerBlock("pink_concrete_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(1.25f,4.2f).requiresCorrectToolForDrops()));
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(1.8f).requiresCorrectToolForDrops()));
 
     public static final DeferredBlock<WallBlock> PRISMARINE_BRICK_WALL = registerBlock("prismarine_brick_wall",
             () -> new WallBlock(BlockBehaviour.Properties.of().strength(1.5f, 6.0f).requiresCorrectToolForDrops()));
