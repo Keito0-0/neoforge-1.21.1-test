@@ -2,6 +2,7 @@ package com.keitooo.testingmod.datagen;
 
 import com.keitooo.testingmod.block.ModBlocks;
 import com.keitooo.testingmod.testingmod;
+import com.keitooo.testingmod.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
@@ -144,5 +145,13 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.TERRACOTTA_STAIRS.get());
         tag(BlockTags.SLABS)
                 .add(ModBlocks.TERRACOTTA_SLAB.get());
+        tag(ModTags.Blocks.NEEDS_SUNSTONE_TOOL)
+                .addTag(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.MAGIC_BLOCK.get());
+
+
+        tag(ModTags.Blocks.INCORRECT_FOR_SUNSTONE_TOOL)
+                .addTag(BlockTags.INCORRECT_FOR_IRON_TOOL)
+                .remove(ModTags.Blocks.NEEDS_SUNSTONE_TOOL);
     }
 }

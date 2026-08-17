@@ -27,6 +27,12 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModItems.POCKET_SUN);
                         output.accept(ModItems.CARDBOARD);
+
+                        output.accept(ModItems.SUNSTONE_SWORD);
+                        output.accept(ModItems.SUNSTONE_PICKAXE);
+                        output.accept(ModItems.SUNSTONE_SHOVEL);
+                        output.accept(ModItems.SUNSTONE_AXE);
+                        output.accept(ModItems.SUNSTONE_HOE);
                     }).build());
 
     public static final Supplier<CreativeModeTab> CUSTOM_BLOCKS_TAB = CREATIVE_MODE_TAB.register("custom_blocks_tab",

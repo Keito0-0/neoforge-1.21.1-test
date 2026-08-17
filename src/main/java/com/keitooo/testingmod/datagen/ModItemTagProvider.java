@@ -6,6 +6,7 @@ import com.keitooo.testingmod.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
@@ -26,6 +27,19 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.POCKET_SUN.get())
                 .add(ModItems.RADISH.get())
                 .add(Items.EMERALD)
-                .add(Items.REDSTONE);
+                .add(Items.REDSTONE)
+        ;
+
+        tag(ItemTags.SWORDS)
+                .add(ModItems.SUNSTONE_SWORD.get());
+        tag(ItemTags.PICKAXES)
+                .add(ModItems.SUNSTONE_PICKAXE.get());
+        tag(ItemTags.SHOVELS)
+                .add(ModItems.SUNSTONE_SHOVEL.get());
+        tag(ItemTags.AXES)
+                .add(ModItems.SUNSTONE_AXE.get());
+        tag(ItemTags.HOES)
+                .add(ModItems.SUNSTONE_HOE.get());
+
     }
 }

@@ -1,0 +1,8 @@
+{
+  "remove": [
+    "#testingmod:needs_sunstone_tool"
+  ],
+  "values": [
+    "#minecraft:incorrect_for_iron_tool"
+  ]
+}

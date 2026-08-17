@@ -6,6 +6,12 @@
   "item.testingmod.pocket_sun": "Pocket Sun",
   "item.testingmod.cardboard": "Cardboard",
 
+  "item.testingmod.sunstone_sword": "Sunstone Sword",
+  "item.testingmod.sunstone_pickaxe": "Sunstone Pickaxe",
+  "item.testingmod.sunstone_shovel": "Sunstone Shovel",
+  "item.testingmod.sunstone_axe": "Sunstone Axe",
+  "item.testingmod.sunstone_hoe": "Sunstone Hoe",
+
   "block.testingmod.rose_gold_block": "Block of Rose Gold",
   "block.testingmod.sunstone_ore": "Sunstone Ore",
   "block.testingmod.deepslate_sunstone_ore": "Deepslate Sunstone Ore",
