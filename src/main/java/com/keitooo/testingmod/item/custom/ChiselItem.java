@@ -1,6 +1,7 @@
 package com.keitooo.testingmod.item.custom;
 
 import com.keitooo.testingmod.block.ModBlocks;
+import com.keitooo.testingmod.component.ModDataComponents;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
@@ -50,6 +51,8 @@ public class ChiselItem extends Item {
                context.getItemInHand().hurtAndBreak(1,((ServerLevel) level), context.getPlayer(),
                        item -> context.getPlayer().onEquippedItemBroken(item, EquipmentSlot.MAINHAND));
                level.playSound(null, context.getClickedPos(), SoundEvents.GRINDSTONE_USE, SoundSource.BLOCKS);
+
+               context.getItemInHand().set(ModDataComponents.COORDINATES, context.getClickedPos());
             }
         }
         return InteractionResult.SUCCESS;
@@ -61,6 +64,10 @@ public class ChiselItem extends Item {
             tooltipComponents.add(Component.translatable("tooltip.testingmod.chisel.shift_down"));
         } else {
             tooltipComponents.add(Component.translatable("tooltip.testingmod.chisel.tooltip"));
+        }
+
+        if(stack.get(ModDataComponents.COORDINATES) != null) {
+            tooltipComponents.add(Component.literal("Last Block changed at " + stack.get(ModDataComponents.COORDINATES)));
         }
 
         super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);

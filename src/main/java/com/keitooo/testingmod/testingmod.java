@@ -1,6 +1,7 @@
 package com.keitooo.testingmod;
 
 import com.keitooo.testingmod.block.ModBlocks;
+import com.keitooo.testingmod.component.ModDataComponents;
 import com.keitooo.testingmod.item.ModCreativeModeTabs;
 import com.keitooo.testingmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
@@ -43,6 +44,8 @@ public class testingmod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModDataComponents.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
